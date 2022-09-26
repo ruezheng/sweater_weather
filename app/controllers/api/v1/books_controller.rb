@@ -5,6 +5,6 @@ class Api::V1::BooksController < ApplicationController
     forecast = OpenweatherFacade.create_forecast(location).current_weather
     books = OpenlibraryFacade.create_books(location, params[:quantity])
 
-    BooksSerializer.format_books(location, forecast, books)
+    render json: BooksSerializer.format_books(location, forecast, books)
   end
 end

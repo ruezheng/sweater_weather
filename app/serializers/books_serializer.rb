@@ -12,7 +12,7 @@ class BooksSerializer
             "temperature": "#{forecast.temperature.to_i} F"
           },
           "total_books_found": books.first.num_found,
-          "books": books[0..4].map do |book|
+          "books": books.map do |book|
             {
               "isbn": book.isbn,
               "title": book.title,

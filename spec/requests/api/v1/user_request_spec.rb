@@ -16,7 +16,7 @@ RSpec.describe 'User Registration' do
       
       post '/api/v1/users', headers: headers, params: JSON.generate(params)
       binding.pry
-      
+
       body = JSON.parse(response.body)
       expect(response).to be_successful
       expect(response.status).to eq(201)

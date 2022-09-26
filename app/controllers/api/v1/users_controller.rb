@@ -1,12 +1,14 @@
 class Api::V1::UsersController < ApplicationController
-
+  include ParamsHelper
+  
   def create
-    # if User.save
-    #   status: 201
-    # else
-    #   render json: { error: 'Password and password confirmation does not match. Please try again.' }, status: 404
-    #   render json: { error: 'Email has already been taken. Please enter another email.' }, status: 404
-    #   render json: { error: 'Missing field. Please complete all fields.' }, status: 404
-    # end
+    user = User.create(user_params)
+    if user.save
+      api_key = user.api_keys.create! token: SecureRandom.hex
+      render json: UserSerializer.register_user(user, api_key), status: 201
+    else
+      user.errors.full_messages.to_sentence.to_s
+      render status: 400
+    end
   end
 end
