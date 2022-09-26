@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'OpenLibrary API' do
+RSpec.describe 'OpenLibrary API Books Request' do
   describe '#search' do
     before do
       get '/api/v1/book-search?location=denver,co&quantity=5'

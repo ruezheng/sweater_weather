@@ -1,6 +1,6 @@
-class BookSerializer
+class BooksSerializer
 
-  def self.format_book(book)
+  def self.format_books(location)
     {
       "data": {
         "id": "null",

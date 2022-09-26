@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe OpenlibraryService do
-  describe 'happy path', :vcr do
+  describe '::get_books', :vcr do
     it "returns book data to a user based on location provided by mapquest api" do
       location = MapquestFacade.create_coordinates('denver,co')
       books = OpenlibraryService.get_books(location)
