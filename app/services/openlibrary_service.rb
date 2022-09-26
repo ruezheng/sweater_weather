@@ -9,6 +9,5 @@ class OpenlibraryService
     end
 
     parsed_json = JSON.parse(response.body, symbolize_names: true)
-    parsed_json[:docs]
   end
 end

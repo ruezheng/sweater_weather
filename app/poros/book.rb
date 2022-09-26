@@ -5,7 +5,6 @@ class Book
               :num_found
 
   def initialize(book_data, num_found)
-      binding.pry
     @title = book_data[:title]
     @isbn = book_data[:isbn]
     @publisher = book_data[:publisher]
