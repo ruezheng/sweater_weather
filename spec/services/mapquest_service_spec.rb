@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe MapquestService do
-  describe 'happy path' do
-    it "returns geocode data to a user based on location", :vcr do
+  describe 'happy path', :vcr do
+    it "returns geocode data to a user based on city and state" do
       data = MapquestService.get_coordinates("Denver,CO")
 
       expect(data).to be_an(Array)
