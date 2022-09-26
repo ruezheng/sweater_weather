@@ -21,5 +21,16 @@ RSpec.describe 'Openweather Forecast Endpoint' do
         expect(forecast[:attributes].keys).to contain_exactly(:current, :daily, :hourly)
       end
     end
+  
+    context 'sad path' do
+      it 'does not return minutely, weekly, or alerts data', :vcr do
+        parsed_json = JSON.parse(response.body, symbolize_names: true)
+        forecast = parsed_json[:data]
+
+        expect(forecast[:attributes]).to_not have_key(:minutely_weather)
+        expect(forecast[:attributes]).to_not have_key(:alerts)
+        expect(forecast[:attributes]).to_not have_key(:weekly_weather)
+      end
+    end
   end
 end
