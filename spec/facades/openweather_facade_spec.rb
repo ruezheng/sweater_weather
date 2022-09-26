@@ -6,7 +6,7 @@ RSpec.describe OpenweatherFacade do
     let!(:forecast) { OpenweatherFacade.create_forecast(location) }
 
     it 'returns a hash of current, daily, and hourly weather forecasts' do
-      current_forecast = forecast.current
+      current_forecast = forecast.current_weather
       # daily_forecast = weather_forecast.daily[0]
       # hourly_forecast = weather_forecast.hourly[0]
       

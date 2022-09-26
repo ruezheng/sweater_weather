@@ -7,9 +7,9 @@ RSpec.describe WeatherForecast do
     weather_forecast = WeatherForecast.new(data)
 
     expect(weather_forecast).to be_a(WeatherForecast)
-    expect(weather_forecast.current).to be_a(CurrentWeather)
-    expect(weather_forecast.daily[0]).to be_a(DailyWeather)
-    expect(weather_forecast.hourly[0]).to be_a(HourlyWeather)
+    expect(weather_forecast.current_weather).to be_a(CurrentWeather)
+    expect(weather_forecast.daily_weather[0]).to be_a(DailyWeather)
+    expect(weather_forecast.hourly_weather[0]).to be_a(HourlyWeather)
     expect(weather_forecast.id).to eq(nil)
   end
 end

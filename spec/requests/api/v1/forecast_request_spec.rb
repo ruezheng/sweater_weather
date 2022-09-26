@@ -18,7 +18,7 @@ RSpec.describe 'Openweather Forecast Endpoint' do
         expect(forecast[:type]).to eq('forecast')
         expect(forecast[:attributes]).to be_a(Hash)
         
-        expect(forecast[:attributes].keys).to contain_exactly(:current, :daily, :hourly)
+        expect(forecast[:attributes].keys).to contain_exactly(:current_weather, :daily_weather, :hourly_weather)
       end
     end
   
