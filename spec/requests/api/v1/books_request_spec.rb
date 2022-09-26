@@ -8,7 +8,7 @@ RSpec.describe 'OpenLibrary API Books Request' do
 
     context 'happy path' do
       it 'returns serialized data for 5 books about a destination city provided by the user search', :vcr do
-        expect(response.status).to eq(200)
+        expect(response.status).to eq(204)
 
         parsed_json = JSON.parse(response.body, symbolize_names: true)
         books = parsed_json[:data]
