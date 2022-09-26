@@ -13,7 +13,7 @@ RSpec.describe CurrentWeather do
     expect(forecast.temperature).to eq(78.8)
     expect(forecast.feels_like).to eq(78.8)
     expect(forecast.humidity).to eq(40)
-    expect(forecast.uvi).to eq(7.17)
+    expect(forecast.uvi).to eq(7)
     expect(forecast.visibility).to eq(10000)
     expect(forecast.conditions).to eq("overcast clouds")
     expect(forecast.icon).to eq("04d")
