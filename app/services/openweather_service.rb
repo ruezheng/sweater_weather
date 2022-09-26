@@ -9,7 +9,7 @@ class OpenweatherService
       req.params['lon'] = location.lng
       req.params['units'] = 'imperial'
       req.params['exclude'] = 'minutely,alerts'
-      req.params['appid'] = ENV['weather_api_key']
+      req.params['appid'] = ENV['openweather_key']
     end
 
     JSON.parse(response.body, symbolize_names: true)
