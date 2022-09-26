@@ -7,9 +7,9 @@ describe Book do
 
     book = Book.new(book_data)
     
-    expect(book).to be_a(Location)
-    expect(book.title).to eq('Denver')
-    expect(book.isbn).to eq('CO')
-    expect(book.publisher).to eq(39.738453)
+    expect(book).to be_a(Book)
+    expect(book.title).to eq('Denver, Co')
+    expect(book.isbn).to eq ["0762507845", "9780762507849"]
+    expect(book.publisher).to eq ["Universal Map Enterprises"]
   end
 end
