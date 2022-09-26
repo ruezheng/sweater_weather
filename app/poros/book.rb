@@ -1,11 +1,14 @@
 class Book
   attr_reader :title,
               :isbn,
-              :publisher
+              :publisher,
+              :num_found
 
-  def initialize(data)
-    @title = data[:title]
-    @isbn = data[:isbn]
-    @publisher = data[:publisher]
+  def initialize(book_data, num_found)
+      binding.pry
+    @title = book_data[:title]
+    @isbn = book_data[:isbn]
+    @publisher = book_data[:publisher]
+    @num_found = num_found
   end 
 end

@@ -2,8 +2,9 @@ class OpenlibraryFacade
 
   def self.create_books(location)
     books_data = OpenlibraryService.get_books(location)
-    books_data[0..4].map do |book|
-      Book.new(book)
+    num_found = books_data[:num_found]
+    books_data.map do |book_data, num_found|
+      Book.new(book_data, num_found)
     end 
   end
 end
