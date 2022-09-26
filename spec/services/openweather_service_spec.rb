@@ -5,7 +5,7 @@ RSpec.describe OpenweatherService do
   let!(:forecast) { OpenweatherService.get_forecast(location) }
 
   describe 'happy path', :vcr do
-    it "fetches weather forecast data to a user based on coordinates consumed by a mapquest api response" do
+    it "fetches weather forecast data by coordinates provided by a mapquest api geodata" do
       expect(forecast).to be_a(Hash)
       expect(forecast[:current]).to have_key(:dt)
       expect(forecast[:current]).to have_key(:sunrise)
@@ -20,4 +20,10 @@ RSpec.describe OpenweatherService do
     end
   end
 
+  describe 'sad path', :vcr do
+    it 'does not fetch data for minutely or alerts' do
+      expect(forecast).to_not have_key(:minutely)
+      expect(forecast).to_not have_key(:alerts)
+    end
+  end
 end
