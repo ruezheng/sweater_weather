@@ -10,13 +10,11 @@ RSpec.describe RoadTrip do
     road_trip = RoadTrip.new('salt lake city, ut', 'new york, ny', '33', weather_at_eta)
 
     expect(road_trip).to be_a(RoadTrip)
-
     expect(road_trip.id).to eq(nil)
     expect(road_trip.start_city).to eq('Salt Lake City, UT')
     expect(road_trip.end_city).to eq('New York, NY')
-    expect(road_trip.travel_time).to be_a('33 hrs')
-    expect(road_trip.weather_at_eta).to eq(
-      {
+    expect(road_trip.travel_time).to eq('33 hrs')
+    expect(road_trip.weather_at_eta).to eq({
         "temperature": 75.5,
         "conditions": 'not a cloud in the sky'
       })

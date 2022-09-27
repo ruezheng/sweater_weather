@@ -9,7 +9,7 @@ class RoadTrip
     @id = nil
     @start_city = self.format_city_and_state(origin)
     @end_city = format_city_and_state(destination)
-    @travel_time = travel_time
+    @travel_time = "#{travel_time} hrs"
     @weather_at_eta = weather_at_eta
   end
 
