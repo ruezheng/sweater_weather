@@ -28,6 +28,24 @@ RSpec.describe 'User Registration' do
     end
 
     context 'sad path' do
+      it 'returns a 400 status error message if a field is missing' do
+        params = {
+          "email": 'user@example.com',
+          "password": 'test123',
+          "password_confirmation": ''
+        }
+        
+        headers = {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
+
+        post '/api/v1/users', headers: headers, params: JSON.generate(params)
+
+        expect(response.status).to eq(400)
+        expect(response.body).to eq("Password confirmation doesn't match Password")
+      end  
+
       it 'returns a 400 status error message if password does not match password confirmation' do
         params = {
           "email": 'user@example.com',
@@ -45,6 +63,8 @@ RSpec.describe 'User Registration' do
         expect(response.status).to eq(400)
         expect(response.body).to eq("Password confirmation doesn't match Password")
       end
+
+      
     end
   end
 end
