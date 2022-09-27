@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'User Registration' do
-  describe '#create' do
+  describe 'users#create' do
     context 'happy path' do
       it 'creates a new user' do
         params = {
