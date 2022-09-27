@@ -1,4 +1,4 @@
-require 'rails_helper'
+brequire 'rails_helper'
 
 RSpec.describe User, type: :model do
   describe 'relationships' do
@@ -11,3 +11,4 @@ RSpec.describe User, type: :model do
     it { should validate_uniqueness_of(:email) }
   end
 end
+ 

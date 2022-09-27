@@ -16,8 +16,7 @@ RSpec.describe 'User Registration' do
       
       post '/api/v1/users', headers: headers, params: JSON.generate(params)
       
-      body = JSON.parse(response.body, symbolize_names: true).
-      
+      body = JSON.parse(response.body, symbolize_names: true)
 
       expect(response).to be_successful
       expect(body).to have_key(:data)
