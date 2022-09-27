@@ -12,7 +12,7 @@ RSpec.describe OpenlibraryFacade do
       books.each do |book|
         expect(book).to be_a(Book)
         expect(book.title).to be_a(String)
-        expect(book.isbn.first).to be_a(String) # not sure why this is failing with a NoMethodError: undefined method `first' for nil:NilClass
+        expect(book.isbn.first).to be_a(String)
         expect(book.publisher.first).to be_a(String)
         expect(book.num_found).to be_an(Integer)
       end 
