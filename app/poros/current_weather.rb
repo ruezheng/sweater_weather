@@ -17,7 +17,7 @@ class CurrentWeather
     @temperature = data[:temp]
     @feels_like = data[:feels_like]
     @humidity = data[:humidity]
-    @uvi = data[:uvi]
+    @uvi = data[:uvi].to_i
     @visibility = data[:visibility]
     @conditions = data[:weather][0][:description]
     @icon = data[:weather][0][:icon]

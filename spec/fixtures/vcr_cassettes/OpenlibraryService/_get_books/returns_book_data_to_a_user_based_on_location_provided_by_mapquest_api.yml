@@ -1,0 +1,566 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=2Meb8rejhZH9q1UL7IGZy1tCSm4AiZcF&location=denver,co
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Mon, 26 Sep 2022 23:38:01 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1735'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Mon, 26 Sep 2022 23:38:01 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=E1344A130E38F9BDB1C3E2FA69F04704; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=2Meb8rejhZH9q1UL7IGZy1tCSm4AiZcF&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-581106453"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=2Meb8rejhZH9q1UL7IGZy1tCSm4AiZcF&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-1259158518"}]}]}'
+  recorded_at: Mon, 26 Sep 2022 23:38:01 GMT
+- request:
+    method: get
+    uri: https://openlibrary.org/search.json?limit=5&q=Denver
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 23:38:01 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.040 TT 0 0.041"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "numFound": 8849,
+            "start": 0,
+            "numFoundExact": true,
+            "docs": [
+                {
+                    "key": "/works/OL7919260W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL7534653M",
+                        "/books/OL9773191M",
+                        "/works/OL7919260W",
+                        "/authors/OL2644662A"
+                    ],
+                    "title": "Denver                              **",
+                    "title_suggest": "Denver                              **",
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL7534653M",
+                        "OL9773191M"
+                    ],
+                    "publish_date": [
+                        "July 1982",
+                        "1982"
+                    ],
+                    "publish_year": [
+                        1982
+                    ],
+                    "first_publish_year": 1982,
+                    "number_of_pages_median": 480,
+                    "oclc": [
+                        "8545466"
+                    ],
+                    "isbn": [
+                        "0445047119",
+                        "9780449047118",
+                        "0449047113",
+                        "9780445047112"
+                    ],
+                    "last_modified_i": 1303831840,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Popular Library",
+                        "Fawcett Books"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2644662A"
+                    ],
+                    "author_name": [
+                        "John Dunning"
+                    ],
+                    "id_goodreads": [
+                        "572193",
+                        "1709509"
+                    ],
+                    "id_librarything": [
+                        "762567"
+                    ],
+                    "publisher_facet": [
+                        "Fawcett Books",
+                        "Popular Library"
+                    ],
+                    "_version_": 1735676409105350658,
+                    "author_facet": [
+                        "OL2644662A John Dunning"
+                    ]
+                },
+                {
+                    "key": "/works/OL26878533W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL36444779M",
+                        "/works/OL26878533W",
+                        "/authors/OL10084594A"
+                    ],
+                    "title": "Denver Gift",
+                    "title_suggest": "Denver Gift",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL36444779M"
+                    ],
+                    "publish_date": [
+                        "2021"
+                    ],
+                    "publish_year": [
+                        2021
+                    ],
+                    "first_publish_year": 2021,
+                    "isbn": [
+                        "9798593883957"
+                    ],
+                    "last_modified_i": 1640943095,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Independently Published"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL10084594A"
+                    ],
+                    "author_name": [
+                        "Vivienne Schneider"
+                    ],
+                    "publisher_facet": [
+                        "Independently Published"
+                    ],
+                    "_version_": 1735668880312893445,
+                    "author_facet": [
+                        "OL10084594A Vivienne Schneider"
+                    ]
+                },
+                {
+                    "key": "/works/OL17732022W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL26332277M",
+                        "/books/OL36808891M",
+                        "/books/OL36812433M",
+                        "/books/OL36813586M",
+                        "/books/OL36810142M",
+                        "/books/OL36780164M",
+                        "/books/OL36813587M",
+                        "/books/OL36815923M",
+                        "/works/OL17732022W",
+                        "/subjects/fiction",
+                        "/subjects/fiction_romance_general",
+                        "/subjects/place:denver_(colo.)",
+                        "/subjects/place:colorado",
+                        "/subjects/place:denver",
+                        "/authors/OL7321148A"
+                    ],
+                    "title": "The Denver cereal",
+                    "title_suggest": "The Denver cereal",
+                    "edition_count": 8,
+                    "edition_key": [
+                        "OL26332277M",
+                        "OL36808891M",
+                        "OL36812433M",
+                        "OL36813586M",
+                        "OL36810142M",
+                        "OL36780164M",
+                        "OL36813587M",
+                        "OL36815923M"
+                    ],
+                    "publish_date": [
+                        "2008",
+                        "2009"
+                    ],
+                    "publish_year": [
+                        2008,
+                        2009
+                    ],
+                    "first_publish_year": 2008,
+                    "number_of_pages_median": 186,
+                    "publish_place": [
+                        "Denver, CO"
+                    ],
+                    "oclc": [
+                        "456457795"
+                    ],
+                    "lcc": [
+                        "PS-3603.00000000.H74565D46"
+                    ],
+                    "ddc": [
+                        "813.6"
+                    ],
+                    "isbn": [
+                        "1938057481",
+                        "9780982274606",
+                        "1938057465",
+                        "1938057244",
+                        "9781938057588",
+                        "0982274629",
+                        "0982274602",
+                        "9781938057304",
+                        "9781938057298",
+                        "9781938057243",
+                        "9780982274620",
+                        "1938057589",
+                        "1938057309",
+                        "9781938057465",
+                        "1938057295",
+                        "9781938057489"
+                    ],
+                    "last_modified_i": 1643352987,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "denvercerealplac00clau"
+                    ],
+                    "ia_collection_s": "china;denverpubliclibrary-ol;inlibrary;internetarchivebooks;printdisabled",
+                    "lending_edition_s": "OL26332277M",
+                    "lending_identifier_s": "denvercerealplac00clau",
+                    "printdisabled_s": "OL26332277M",
+                    "cover_edition_key": "OL26332277M",
+                    "cover_i": 8010520,
+                    "publisher": [
+                        "Cook Street Publishing"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL7321148A"
+                    ],
+                    "author_name": [
+                        "Claudia Hall Christian"
+                    ],
+                    "place": [
+                        "Denver (Colo.)",
+                        "Colorado",
+                        "Denver"
+                    ],
+                    "subject": [
+                        "Fiction",
+                        "Fiction, romance, general",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "ia_box_id": [
+                        "IA1111520"
+                    ],
+                    "publisher_facet": [
+                        "Cook Street Publishing"
+                    ],
+                    "place_key": [
+                        "colorado",
+                        "denver",
+                        "denver_(colo.)"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Fiction",
+                        "Fiction, romance, general",
+                        "Protected DAISY"
+                    ],
+                    "_version_": 1735658397483663360,
+                    "place_facet": [
+                        "Colorado",
+                        "Denver",
+                        "Denver (Colo.)"
+                    ],
+                    "lcc_sort": "PS-3603.00000000.H74565D46",
+                    "author_facet": [
+                        "OL7321148A Claudia Hall Christian"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "fiction",
+                        "fiction_romance_general",
+                        "protected_daisy"
+                    ],
+                    "ddc_sort": "813.6"
+                },
+                {
+                    "key": "/works/OL16042916W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL3795822M",
+                        "/works/OL16042916W",
+                        "/subjects/industries",
+                        "/subjects/retail_stores",
+                        "/subjects/directories",
+                        "/subjects/guidebooks",
+                        "/subjects/business_travel",
+                        "/authors/OL3429944A",
+                        "/authors/OL6969695A",
+                        "/authors/OL2653225A",
+                        "/authors/OL6969696A",
+                        "/authors/OL6969697A"
+                    ],
+                    "title": "Denver now",
+                    "title_suggest": "Denver now",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL3795822M"
+                    ],
+                    "publish_date": [
+                        "1982"
+                    ],
+                    "publish_year": [
+                        1982
+                    ],
+                    "first_publish_year": 1982,
+                    "lccn": [
+                        "81085938"
+                    ],
+                    "publish_place": [
+                        "Denver, CO"
+                    ],
+                    "oclc": [
+                        "8781120"
+                    ],
+                    "contributor": [
+                        "Now Publications.",
+                        "Freed, Ken.",
+                        "Most, Bruce W.",
+                        "Gaddy, T. W.",
+                        "Perez, Steve.",
+                        "Chirichigno, Joe."
+                    ],
+                    "lcc": [
+                        "HC-0108.00000000.D37 D46 1982"
+                    ],
+                    "ddc": [
+                        "338.0978883"
+                    ],
+                    "isbn": [
+                        "9780943426006",
+                        "0943426006"
+                    ],
+                    "last_modified_i": 1603300845,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "denvernowdenvers00most"
+                    ],
+                    "ia_collection_s": "china;denverpubliclibrary-ol;inlibrary;internetarchivebooks;printdisabled",
+                    "lending_edition_s": "OL3795822M",
+                    "lending_identifier_s": "denvernowdenvers00most",
+                    "printdisabled_s": "OL3795822M",
+                    "cover_edition_key": "OL3795822M",
+                    "cover_i": 6909122,
+                    "publisher": [
+                        "Now Publications"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL3429944A",
+                        "OL6969695A",
+                        "OL2653225A",
+                        "OL6969696A",
+                        "OL6969697A"
+                    ],
+                    "author_name": [
+                        "Bruce W. Most",
+                        "Ken Freed",
+                        "Steve Perez",
+                        "Joe Chirichigno",
+                        "T. W. Gaddy"
+                    ],
+                    "subject": [
+                        "Industries",
+                        "Retail Stores",
+                        "Directories",
+                        "Guidebooks",
+                        "Business travel",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "id_librarything": [
+                        "6359263"
+                    ],
+                    "ia_loaded_id": [
+                        "denvernowdenvers00most"
+                    ],
+                    "ia_box_id": [
+                        "IA125515"
+                    ],
+                    "publisher_facet": [
+                        "Now Publications"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Business travel",
+                        "Directories",
+                        "Guidebooks",
+                        "Industries",
+                        "Protected DAISY",
+                        "Retail Stores"
+                    ],
+                    "_version_": 1735656285128359939,
+                    "lcc_sort": "HC-0108.00000000.D37 D46 1982",
+                    "author_facet": [
+                        "OL2653225A Steve Perez",
+                        "OL3429944A Bruce W. Most",
+                        "OL6969695A Ken Freed",
+                        "OL6969696A Joe Chirichigno",
+                        "OL6969697A T. W. Gaddy"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "business_travel",
+                        "directories",
+                        "guidebooks",
+                        "industries",
+                        "protected_daisy",
+                        "retail_stores"
+                    ],
+                    "ddc_sort": "338.0978883"
+                },
+                {
+                    "key": "/works/OL8024585W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL11307122M",
+                        "/books/OL11307123M",
+                        "/works/OL8024585W",
+                        "/authors/OL2672852A"
+                    ],
+                    "title": "John Denver",
+                    "title_suggest": "John Denver",
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL11307122M",
+                        "OL11307123M"
+                    ],
+                    "publish_date": [
+                        "December 31, 1998"
+                    ],
+                    "publish_year": [
+                        1998
+                    ],
+                    "first_publish_year": 1998,
+                    "isbn": [
+                        "9780895240040",
+                        "089524005X",
+                        "0895240041",
+                        "9780895240057"
+                    ],
+                    "last_modified_i": 1260838959,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Music Sales Ltd"
+                    ],
+                    "author_key": [
+                        "OL2672852A"
+                    ],
+                    "author_name": [
+                        "Lane"
+                    ],
+                    "publisher_facet": [
+                        "Music Sales Ltd"
+                    ],
+                    "_version_": 1735676600195743745,
+                    "author_facet": [
+                        "OL2672852A Lane"
+                    ]
+                }
+            ],
+            "num_found": 8849,
+            "q": "Denver",
+            "offset": null
+        }
+  recorded_at: Mon, 26 Sep 2022 23:38:01 GMT
+recorded_with: VCR 6.1.0
