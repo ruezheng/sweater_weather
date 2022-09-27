@@ -24,6 +24,7 @@ RSpec.describe 'User Log In' do
         expect(response.status).to eq(200)
         expect(body).to have_key(:data)
         expect(body[:data].keys).to contain_exactly(:id, :type, :attributes)
+        expect(body[:data][:type]).to eq('user')
         expect(body[:data][:attributes].keys).to contain_exactly(:email, :api_key)
       end
     end
