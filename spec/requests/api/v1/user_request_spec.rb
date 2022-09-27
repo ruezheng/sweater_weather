@@ -83,7 +83,6 @@ RSpec.describe 'User Registration' do
         expect(response.status).to eq(201)
         
         # user2 creation fails:
-
         params = {
           "email": 'user@example.com',
           "password": 'test123',
