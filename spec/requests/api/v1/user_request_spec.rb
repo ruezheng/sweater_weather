@@ -26,7 +26,7 @@ RSpec.describe 'User Registration' do
     end
 
     context 'sad path' do
-      it 'returns a 400 status error message if a field is missing' do
+      it 'returns a 400 status and appropriate error message if a field is missing' do
         params = {
           "email": 'user@example.com',
           "password": 'test123',
@@ -44,7 +44,7 @@ RSpec.describe 'User Registration' do
         expect(response.body).to eq("Password confirmation doesn't match Password")
       end  
 
-      it 'returns a 400 status error message if password does not match password confirmation' do
+      it 'returns a 400 status and appropriate error message if password does not match password confirmation' do
         params = {
           "email": 'user@example.com',
           "password": 'test123',
@@ -62,7 +62,7 @@ RSpec.describe 'User Registration' do
         expect(response.body).to eq("Password confirmation doesn't match Password")
       end
 
-      it 'returns a 400 status error message if email is already taken' do
+      it 'returns a 400 status and appropriate error message if email is already taken' do
         user = User.create!(email: 'user@example.com', password: 'test123', password_confirmation: 'test123')
         
         params = {
