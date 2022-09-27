@@ -16,11 +16,9 @@ RSpec.describe 'User Registration' do
         }
         
         post '/api/v1/users', headers: headers, params: JSON.generate(params)
-        
         body = JSON.parse(response.body, symbolize_names: true)
         
         expect(response).to have_http_status(:created)
-        expect(response.status).to eq(201)
         expect(body).to have_key(:data)
         expect(body[:data].keys).to contain_exactly(:id, :type, :attributes)
         expect(body[:data][:attributes].keys).to contain_exactly(:email, :api_key)
@@ -65,7 +63,7 @@ RSpec.describe 'User Registration' do
       end
 
       it 'returns a 400 status error message if email is already taken' do
-        user = User.create!( email: 'user@example.com', password: 'test123', password_confirmation: 'test123' )
+        user = User.create!(email: 'user@example.com', password: 'test123', password_confirmation: 'test123')
         
         params = {
           "email": 'user@example.com',
