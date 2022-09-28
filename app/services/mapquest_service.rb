@@ -12,4 +12,15 @@ class MapquestService
     parsed_json = JSON.parse(response.body, symbolize_names: true)
     parsed_json[:results][0][:locations]
   end
+
+  def self.get_route(origin, destination)
+    response = conn.get("/directions/v2/route") do |req|
+      req.params['key'] = ENV['mapquest_key']
+      req.params['from'] = origin
+      req.params['to'] = destination
+    end
+
+    parsed_json = JSON.parse(response.body, symbolize_names: true)
+    parsed_json[:route][:legs][0]
+  end
 end
