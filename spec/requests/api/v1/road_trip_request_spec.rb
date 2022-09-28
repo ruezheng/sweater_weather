@@ -4,13 +4,12 @@ RSpec.describe 'Road Trip Endpoint' do
   describe '#create' do
     context 'happy path' do
       it 'creates a new road trip', :vcr do
-        user = User.create!(email: 'user@example.com', password: 'test123', password_confirmation: 'test123')
-        api_key = user.generate_api_key
+        user = User.create!(email: 'user@example.com', password: 'test123', password_confirmation: 'test123', api_key: "b9fda3e3eb9842dc9654c75716f99ead")
 
         params = {
           "origin": "Denver,CO",
           "destination": "Pueblo,CO",
-          "api_key": api_key
+          "api_key": "b9fda3e3eb9842dc9654c75716f99ead"
         }
         
         headers = {
@@ -19,9 +18,9 @@ RSpec.describe 'Road Trip Endpoint' do
         }
         
         post '/api/v1/road_trip', headers: headers, params: JSON.generate(params)
-          binding.pry
+
         parsed_json = JSON.parse(response.body, symbolize_names: true)
-binding.pry
+        
         road_trip = parsed_json[:data]
         
         expect(response.status).to eq(200)
