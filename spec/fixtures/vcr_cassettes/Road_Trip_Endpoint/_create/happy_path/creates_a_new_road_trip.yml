@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from&key=2Meb8rejhZH9q1UL7IGZy1tCSm4AiZcF&to
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:09:43 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '272'
+      Set-Cookie:
+      - JSESSIONID=4DC309280AD5040D8A01E525DE78D27F; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:09:43 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MjExLCJtZXNzYWdlIjoiIn19LCJpbmZvIjp7InN0YXR1c2NvZGUiOjYxMSwiY29weXJpZ2h0Ijp7ImltYWdlQWx0VGV4dCI6IsKpIDIwMjIgTWFwUXVlc3QsIEluYy4iLCJpbWFnZVVybCI6Imh0dHA6Ly9hcGkubXFjZG4uY29tL3Jlcy9tcWxvZ28uZ2lmIiwidGV4dCI6IsKpIDIwMjIgTWFwUXVlc3QsIEluYy4ifSwibWVzc2FnZXMiOlsiQXQgbGVhc3QgdHdvIGxvY2F0aW9ucyBtdXN0IGJlIHByb3ZpZGVkLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:09:43 GMT
+recorded_with: VCR 6.1.0

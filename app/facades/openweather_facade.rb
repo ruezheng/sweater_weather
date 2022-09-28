@@ -9,7 +9,7 @@ class OpenweatherFacade
 
     def create_weather_at_eta(destination, hours)
       parsed_json = OpenweatherService.get_forecast(destination)
-      binding.pry
+
       WeatherForecast.new(parsed_json)
     end
   end

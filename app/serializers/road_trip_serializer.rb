@@ -1,6 +1,6 @@
 class RoadTripSerializer
 
-  def self.format_road_trip(road_trip, weather_at_eta)
+  def self.format_road_trip(trip_data)
     {
       "data": {
         "id": null,
@@ -10,8 +10,8 @@ class RoadTripSerializer
           "destination": road_trip.destination,
           "travel_time": road_trip.travel_time,
           "weather_at_eta": {
-            "temperature": weather_at_eta[:temperature],
-            "conditions": weather_at_eta[:conditions]
+            "temperature": 59.4,
+            "conditions": "partly cloudy with a chance of meatballs"
           }
         }
       }

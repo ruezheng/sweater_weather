@@ -2,14 +2,14 @@ require 'rails_helper'
 
 RSpec.describe OpenweatherFacade do
   describe '::create_forecast', :vcr do
-    it 'returns a hash of current, daily, and hourly weather forecasts' do
+    it 'returns a hash of current, daily, and hourly weather forecasts and their attributes' do
       location = MapquestFacade.create_coordinates('denver,co')
       forecast = OpenweatherFacade.create_forecast(location)
 
       current_forecast = forecast.current_weather
       
       expect(current_forecast).to be_a(CurrentWeather)
-      expect(current_forecast.date).to eq('2022-09-27 19:56:57.000000000 -0600')
+      expect(current_forecast.date).to eq('2022-09-27 20:49:56.000000000 -0600')
       expect(current_forecast.sunrise).to eq('2022-09-27 06:52:16.000000000 -0600')
       expect(current_forecast.sunset).to eq('2022-09-27 18:49:27.000000000 -0600')
       expect(current_forecast.temperature).to be_an(Float)
@@ -34,7 +34,7 @@ RSpec.describe OpenweatherFacade do
       hourly_forecast = forecast.hourly_weather[0]
 
       expect(hourly_forecast).to be_a(HourlyWeather)
-      expect(hourly_forecast.time).to eq("2022-09-27 19:00:00.000000000 -0600")
+      expect(hourly_forecast.time).to eq("2022-09-27 20:00:00.000000000 -0600")
       expect(hourly_forecast.temperature).to be_a(Float)
       expect(hourly_forecast.conditions).to be_a(String)
       expect(hourly_forecast.icon).to be_a(String)
@@ -42,11 +42,10 @@ RSpec.describe OpenweatherFacade do
   end
 
   describe '::create_weather_at_eta', :vcr do
-    it 'returns hourly weather data for destination city based on time of arrival' do
+   xit 'returns hourly weather data for destination city based on time of arrival' do
       destination = MapquestFacade.create_coordinates('new york,ny')
       forecast = OpenweatherFacade.create_forecast(destination)
 
-      expect()
     end
   end
 end
