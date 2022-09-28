@@ -1,17 +1,17 @@
 class RoadTripSerializer
 
-  def self.format_road_trip(road_trip, forecast)
+  def self.format_road_trip(road_trip, weather_at_eta)
     {
       "data": {
         "id": null,
         "type": "roadtrip",
         "attributes": {
-          "start_city": "#{road_trip.start_city.capitalize}, #{road_trip.start_state.upcase}",
-          "end_city": "#{road_trip.end_city.capitalize}, #{road_trip.end_state.upcase}",
+          "origin": road_trip.origin,
+          "destination": road_trip.destination,
           "travel_time": road_trip.travel_time,
           "weather_at_eta": {
-            "temperature": forecast[:temperature],
-            "conditions": forecast[:conditions]
+            "temperature": weather_at_eta[:temperature],
+            "conditions": weather_at_eta[:conditions]
           }
         }
       }

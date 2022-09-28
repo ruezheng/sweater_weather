@@ -4,13 +4,13 @@ class Api::V1::RoadTripsController < ApplicationController
     user = User.find_by(api_key: params[:api_key])
 
     if user.present?
-      travel_time = MapquestFacade.get_travel_time(params[:origin], params[:destination])
+      route_data = MapquestFacade.get_travel_time(params[:origin], params[:destination])
 
       weather_at_eta = OpenweatherFacade.create_weather_at_eta(params[:destination], travel_time)
 
-      road_trip = RoadTrip.new(params[:origin], params[:destination], travel_time, weather_at_eta)
+      road_trip = RoadTrip.new(params[:origin], params[:destination], route_data)
 
-      render json: RoadTripSerializer.new(road_trip)
+      render json: RoadTripSerializer.new(road_trip, weather_at_eta)
     else
       render json: { error: 'Api Key Incorrect or Missing' }, status: :unauthorized
     end
