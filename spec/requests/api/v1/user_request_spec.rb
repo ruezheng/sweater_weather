@@ -65,7 +65,7 @@ RSpec.describe 'User Registration' do
 
       it 'returns a 400 status and appropriate error message if email is already taken' do
         user = User.create!(email: 'user@example.com', password: 'test123', password_confirmation: 'test123')
-        
+
         params = {
           "email": 'user@example.com',
           "password": 'test123',
@@ -78,7 +78,7 @@ RSpec.describe 'User Registration' do
         }
 
         post '/api/v1/users', headers: headers, params: JSON.generate(params)
-
+        
         expect(response.status).to eq(400)
         expect(response.body).to eq("Email has already been taken")
       end

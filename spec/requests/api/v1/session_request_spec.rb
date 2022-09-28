@@ -46,7 +46,7 @@ RSpec.describe 'User Log In' do
 
         expect(response.status).to eq(401)
         expect(body["error"]).to eq("Email or password is invalid. Please try again.")
-      end      
+      end
       
       it 'returns a 400 status and error message if password is invalid' do
         params = {
