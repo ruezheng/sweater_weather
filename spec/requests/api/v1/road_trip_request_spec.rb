@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'Road Trip Endpoint' do
   describe '#create' do
     context 'happy path' do
-      xit 'creates a new road trip', :vcr do
+      it 'creates a new road trip', :vcr do
         user = User.create!(email: 'user@example.com', password: 'test123', password_confirmation: 'test123', api_key: "b9fda3e3eb9842dc9654c75716f99ead")
 
         params = {
@@ -29,7 +29,8 @@ RSpec.describe 'Road Trip Endpoint' do
         expect(road_trip[:type]).to eq('roadtrip')
         expect(road_trip[:attributes]).to be_a(Hash)
         
-        expect(forecast[:attributes].keys).to contain_exactly(:current_weather, :daily_weather, :hourly_weather)
+        expect(road_trip[:attributes].keys).to contain_exactly(:origin, :destination, :travel_time, :weather_at_eta)
+        expect(road_trip[:attributes][:weather_at_eta].keys).to contain_exactly(:temperature, :conditions)
       end
     end
   end
