@@ -5,7 +5,7 @@ RSpec.describe OpenweatherService do
   let!(:forecast) { OpenweatherService.get_forecast(location) }
 
   context 'happy path', :vcr do
-    it "fetches weather forecast data by coordinates provided by a mapquest api geodata" do
+    it "fetches weather forecast data with coordinates provided by a mapquest api geodata" do
       expect(forecast).to be_a(Hash)
       expect(forecast[:current]).to have_key(:dt)
       expect(forecast[:current]).to have_key(:sunrise)

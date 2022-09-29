@@ -14,13 +14,15 @@ RSpec.describe MapquestFacade do
       end
     end
 
-    describe '::create_route' do
+    describe '::create_road_trip' do
       it 'returns route data as a RoadTrip poro with travel_time and distance attributes' do
-        route = MapquestFacade.create_route('salt lake city,ut', 'new york,ny')
+        travel_time = MapquestFacade.create_travel_time('new york,ny', 'los angeles,ca')
 
-        expect(route).to be_a(RoadTrip)
-        expect(route.travel_time).to be_a(String)
-        expect(route.distance).to be_a(String)
+        # expect(road_trip).to be_a(RoadTrip)
+        expect(travel_time).to be_a(String)
+        # expect(road_trip.distance).to be_a(String)
+        # expect(road_trip.id).to eq(nil)
+        # expect(road_trip.temperature).to eq("75.6")
       end    
     end
   end
