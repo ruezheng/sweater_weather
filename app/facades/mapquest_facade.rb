@@ -5,9 +5,9 @@ class MapquestFacade
     Location.new(location_data[0])
   end
   
-  def self.create_route(origin, destination)
+  def self.create_travel_time(origin, destination)
     route_data = MapquestService.get_route(origin, destination)
-
-    RoadTrip.new(origin, destination, route_data)
+    
+    route_data[:formattedTime]
   end
 end

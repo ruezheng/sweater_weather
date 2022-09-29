@@ -1,9 +1,9 @@
 class Api::V1::RoadTripController < ApplicationController
-  include ParamsHelper
+  # include ParamsHelper
 
   def create
     user = User.find_by(api_key: params[:api_key])
-    
+
     if user
       route_data = MapquestFacade.create_route(params[:origin], params[:destination])
 

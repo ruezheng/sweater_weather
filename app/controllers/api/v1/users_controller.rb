@@ -1,5 +1,5 @@
 class Api::V1::UsersController < ApplicationController
-  include ParamsHelper
+  # include ParamsHelper
   
   def create
     user = User.new(user_params)

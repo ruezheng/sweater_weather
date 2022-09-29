@@ -4,15 +4,14 @@ class RoadTrip
               :destination,
               :travel_time,
               :distance
-              # :weather_at_eta
+              :weather_at_eta
 
-  def initialize(origin, destination, route_data)
+  def initialize(origin, destination, travel_time)
     @id = nil
     @origin = self.format_city_and_state(origin)
     @destination = format_city_and_state(destination)
-    @travel_time = format_time(route_data[:formattedTime])
+    @travel_time = format_time(travel_time)
     @distance = "#{route_data[:distance]} miles"
-    # @weather_at_eta = weather_at_eta
   end
 
   def format_city_and_state(location)
@@ -21,9 +20,9 @@ class RoadTrip
     "#{city},#{state}"
   end
 
-  def format_time(route_data)
-    hours = route_data.split(':')[0]
-    minutes = route_data.split(':')[1]
+  def format_time(travel_time)
+    hours = travel_time.split(':').first
+    minutes = travel_time.split(':').second
 
     "#{hours} hours, #{minutes} minutes"
   end
