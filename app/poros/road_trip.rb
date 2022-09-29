@@ -11,7 +11,6 @@ class RoadTrip
     @origin = self.format_city_and_state(origin)
     @destination = format_city_and_state(destination)
     @travel_time = format_time(travel_time)
-    @distance = "#{route_data[:distance]} miles"
   end
 
   def format_city_and_state(location)

@@ -19,11 +19,11 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Thu, 29 Sep 2022 13:52:19 GMT
+      - Thu, 29 Sep 2022 14:33:33 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
-      - '1735'
+      - '1733'
       Access-Control-Allow-Methods:
       - OPTIONS,GET,POST
       Access-Control-Allow-Origin:
@@ -35,13 +35,13 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Thu, 29 Sep 2022 13:52:19 GMT
+      - Thu, 29 Sep 2022 14:33:33 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
       - '0'
       Set-Cookie:
-      - JSESSIONID=07A00EF84A675182C90AC93BE5E45ED5; Path=/; HttpOnly
+      - JSESSIONID=00A16274D3FEFC162CD6011F63B3F7F0; Path=/; HttpOnly
       X-Vz-Migration-Api:
       - 'false'
       Status:
@@ -54,9 +54,9 @@ http_interactions:
       string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
         Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
         2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
-        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=2Meb8rejhZH9q1UL7IGZy1tCSm4AiZcF&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=1227770531"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
-        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=2Meb8rejhZH9q1UL7IGZy1tCSm4AiZcF&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-1045429687"}]}]}'
-  recorded_at: Thu, 29 Sep 2022 13:52:19 GMT
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=2Meb8rejhZH9q1UL7IGZy1tCSm4AiZcF&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-723823790"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=2Meb8rejhZH9q1UL7IGZy1tCSm4AiZcF&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=211234009"}]}]}'
+  recorded_at: Thu, 29 Sep 2022 14:33:33 GMT
 - request:
     method: get
     uri: https://api.openweathermap.org/data/2.5/onecall?appid=529ec8123995c0d5362a84a8570088f1&exclude=minutely,alerts&lat=39.738453&lon=-104.984853&units=imperial
@@ -78,11 +78,11 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Thu, 29 Sep 2022 13:52:20 GMT
+      - Thu, 29 Sep 2022 14:33:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '17934'
+      - '17916'
       Connection:
       - keep-alive
       X-Cache-Key:
@@ -95,14 +95,13 @@ http_interactions:
       - GET, POST
     body:
       encoding: UTF-8
-      string: '{"lat":39.7385,"lon":-104.9849,"timezone":"America/Denver","timezone_offset":-21600,"current":{"dt":1664459540,"sunrise":1664456049,"sunset":1664498770,"temp":62.85,"feels_like":61,"pressure":1017,"humidity":46,"dew_point":41.79,"uvi":0.23,"clouds":71,"visibility":10000,"wind_speed":4.52,"wind_deg":207,"wind_gust":6.42,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}]},"hourly":[{"dt":1664456400,"temp":63.07,"feels_like":61.09,"pressure":1017,"humidity":43,"dew_point":40.24,"uvi":0,"clouds":65,"visibility":10000,"wind_speed":4.38,"wind_deg":210,"wind_gust":5.32,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0},{"dt":1664460000,"temp":62.85,"feels_like":61,"pressure":1017,"humidity":46,"dew_point":41.79,"uvi":0.23,"clouds":71,"visibility":10000,"wind_speed":4.52,"wind_deg":207,"wind_gust":6.42,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0},{"dt":1664463600,"temp":64.13,"feels_like":62.22,"pressure":1017,"humidity":42,"dew_point":40.6,"uvi":0.94,"clouds":72,"visibility":10000,"wind_speed":4.85,"wind_deg":211,"wind_gust":6.49,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0},{"dt":1664467200,"temp":67.05,"feels_like":65.14,"pressure":1017,"humidity":36,"dew_point":39.24,"uvi":2.28,"clouds":75,"visibility":10000,"wind_speed":4.43,"wind_deg":202,"wind_gust":5.68,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0},{"dt":1664470800,"temp":71.64,"feels_like":69.85,"pressure":1016,"humidity":29,"dew_point":37.72,"uvi":3.89,"clouds":79,"visibility":10000,"wind_speed":3.8,"wind_deg":180,"wind_gust":5.5,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0},{"dt":1664474400,"temp":76.69,"feels_like":75.15,"pressure":1015,"humidity":23,"dew_point":36.16,"uvi":5.19,"clouds":84,"visibility":10000,"wind_speed":4.88,"wind_deg":149,"wind_gust":6.15,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0},{"dt":1664478000,"temp":82.09,"feels_like":79.77,"pressure":1013,"humidity":16,"dew_point":31.19,"uvi":4.91,"clouds":100,"visibility":10000,"wind_speed":6.49,"wind_deg":126,"wind_gust":8.81,"weather":[{"id":804,"main":"Clouds","description":"overcast
+      string: '{"lat":39.7385,"lon":-104.9849,"timezone":"America/Denver","timezone_offset":-21600,"current":{"dt":1664462008,"sunrise":1664456049,"sunset":1664498770,"temp":65.84,"feels_like":64.29,"pressure":1015,"humidity":46,"dew_point":44.51,"uvi":0.94,"clouds":74,"visibility":10000,"wind_speed":1.01,"wind_deg":181,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}]},"hourly":[{"dt":1664460000,"temp":65.79,"feels_like":64.04,"pressure":1016,"humidity":42,"dew_point":42.08,"uvi":0.23,"clouds":73,"visibility":10000,"wind_speed":4.52,"wind_deg":207,"wind_gust":6.42,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1664463600,"temp":65.84,"feels_like":64.29,"pressure":1015,"humidity":46,"dew_point":44.51,"uvi":0.94,"clouds":74,"visibility":10000,"wind_speed":4.85,"wind_deg":211,"wind_gust":6.49,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1664467200,"temp":67.33,"feels_like":65.7,"pressure":1015,"humidity":41,"dew_point":42.85,"uvi":2.28,"clouds":75,"visibility":10000,"wind_speed":4.43,"wind_deg":202,"wind_gust":5.68,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1664470800,"temp":70.5,"feels_like":68.9,"pressure":1015,"humidity":35,"dew_point":41.56,"uvi":3.89,"clouds":78,"visibility":10000,"wind_speed":3.8,"wind_deg":180,"wind_gust":5.5,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1664474400,"temp":74.43,"feels_like":72.93,"pressure":1014,"humidity":29,"dew_point":40.14,"uvi":5.19,"clouds":82,"visibility":10000,"wind_speed":4.88,"wind_deg":149,"wind_gust":6.15,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1664478000,"temp":78.84,"feels_like":78.84,"pressure":1013,"humidity":22,"dew_point":36.82,"uvi":4.91,"clouds":95,"visibility":10000,"wind_speed":6.49,"wind_deg":126,"wind_gust":8.81,"weather":[{"id":804,"main":"Clouds","description":"overcast
         clouds","icon":"04d"}],"pop":0},{"dt":1664481600,"temp":83.34,"feels_like":80.62,"pressure":1011,"humidity":14,"dew_point":30.15,"uvi":4.47,"clouds":100,"visibility":10000,"wind_speed":2.01,"wind_deg":20,"wind_gust":7.43,"weather":[{"id":804,"main":"Clouds","description":"overcast
         clouds","icon":"04d"}],"pop":0},{"dt":1664485200,"temp":76.53,"feels_like":75.11,"pressure":1013,"humidity":26,"dew_point":38.64,"uvi":3.35,"clouds":100,"visibility":10000,"wind_speed":21.88,"wind_deg":276,"wind_gust":17.87,"weather":[{"id":804,"main":"Clouds","description":"overcast
         clouds","icon":"04d"}],"pop":0},{"dt":1664488800,"temp":73.72,"feels_like":72.1,"pressure":1013,"humidity":28,"dew_point":38.68,"uvi":1.67,"clouds":100,"visibility":10000,"wind_speed":7.7,"wind_deg":87,"wind_gust":12.24,"weather":[{"id":500,"main":"Rain","description":"light
@@ -144,8 +143,9 @@ http_interactions:
         clouds","icon":"04n"}],"pop":0.16},{"dt":1664618400,"temp":57.4,"feels_like":56.32,"pressure":1013,"humidity":74,"dew_point":48.94,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":5.3,"wind_deg":177,"wind_gust":8.63,"weather":[{"id":804,"main":"Clouds","description":"overcast
         clouds","icon":"04n"}],"pop":0.12},{"dt":1664622000,"temp":56.93,"feels_like":55.9,"pressure":1013,"humidity":76,"dew_point":49.21,"uvi":0,"clouds":98,"visibility":10000,"wind_speed":4.94,"wind_deg":176,"wind_gust":9.06,"weather":[{"id":804,"main":"Clouds","description":"overcast
         clouds","icon":"04n"}],"pop":0.04},{"dt":1664625600,"temp":56.73,"feels_like":55.67,"pressure":1013,"humidity":76,"dew_point":48.9,"uvi":0,"clouds":84,"visibility":10000,"wind_speed":4.18,"wind_deg":172,"wind_gust":8.21,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0.04}],"daily":[{"dt":1664474400,"sunrise":1664456049,"sunset":1664498770,"moonrise":1664470800,"moonset":1664506500,"moon_phase":0.13,"temp":{"day":76.69,"min":62.85,"max":83.34,"night":66.43,"eve":72.34,"morn":63.52},"feels_like":{"day":75.15,"night":64.89,"eve":70.77,"morn":61.45},"pressure":1015,"humidity":23,"dew_point":36.16,"wind_speed":21.88,"wind_deg":276,"wind_gust":17.87,"weather":[{"id":500,"main":"Rain","description":"light
-        rain","icon":"10d"}],"clouds":84,"pop":0.36,"rain":0.37,"uvi":5.19},{"dt":1664560800,"sunrise":1664542507,"sunset":1664585072,"moonrise":1664561580,"moonset":1664595360,"moon_phase":0.17,"temp":{"day":78.17,"min":56.32,"max":81.07,"night":56.35,"eve":62.96,"morn":63.03},"feels_like":{"day":76.68,"night":55.36,"eve":61.77,"morn":60.82},"pressure":1009,"humidity":21,"dew_point":35.53,"wind_speed":16.46,"wind_deg":350,"wind_gust":21.47,"weather":[{"id":501,"main":"Rain","description":"moderate
+        clouds","icon":"04n"}],"pop":0.04},{"dt":1664629200,"temp":55.99,"feels_like":54.91,"pressure":1013,"humidity":77,"dew_point":48.76,"uvi":0,"clouds":14,"visibility":10000,"wind_speed":3.74,"wind_deg":186,"wind_gust":7.4,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"pop":0.16}],"daily":[{"dt":1664474400,"sunrise":1664456049,"sunset":1664498770,"moonrise":1664470800,"moonset":1664506500,"moon_phase":0.13,"temp":{"day":74.43,"min":65.05,"max":83.34,"night":66.43,"eve":72.34,"morn":65.05},"feels_like":{"day":72.93,"night":64.89,"eve":70.77,"morn":63},"pressure":1014,"humidity":29,"dew_point":40.14,"wind_speed":21.88,"wind_deg":276,"wind_gust":17.87,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":82,"pop":0.36,"rain":0.37,"uvi":5.19},{"dt":1664560800,"sunrise":1664542507,"sunset":1664585072,"moonrise":1664561580,"moonset":1664595360,"moon_phase":0.17,"temp":{"day":78.17,"min":56.32,"max":81.07,"night":56.35,"eve":62.96,"morn":63.03},"feels_like":{"day":76.68,"night":55.36,"eve":61.77,"morn":60.82},"pressure":1009,"humidity":21,"dew_point":35.53,"wind_speed":16.46,"wind_deg":350,"wind_gust":21.47,"weather":[{"id":501,"main":"Rain","description":"moderate
         rain","icon":"10d"}],"clouds":45,"pop":0.99,"rain":10.54,"uvi":5.04},{"dt":1664647200,"sunrise":1664628964,"sunset":1664671374,"moonrise":1664652300,"moonset":1664684820,"moon_phase":0.2,"temp":{"day":68.65,"min":55.99,"max":73.38,"night":58.77,"eve":67.48,"morn":56.73},"feels_like":{"day":67.23,"night":57.78,"eve":66.13,"morn":55.67},"pressure":1012,"humidity":43,"dew_point":45.37,"wind_speed":12.15,"wind_deg":46,"wind_gust":11.86,"weather":[{"id":500,"main":"Rain","description":"light
         rain","icon":"10d"}],"clouds":4,"pop":0.99,"rain":1.66,"uvi":5.12},{"dt":1664733600,"sunrise":1664715422,"sunset":1664757677,"moonrise":1664742660,"moonset":1664774880,"moon_phase":0.25,"temp":{"day":64.92,"min":55.36,"max":71.35,"night":64.9,"eve":69.78,"morn":55.36},"feels_like":{"day":63.37,"night":63.3,"eve":68.05,"morn":54.41},"pressure":1016,"humidity":48,"dew_point":44.42,"wind_speed":5.91,"wind_deg":24,"wind_gust":9.64,"weather":[{"id":500,"main":"Rain","description":"light
         rain","icon":"10d"}],"clouds":100,"pop":0.88,"rain":0.32,"uvi":5.1},{"dt":1664820000,"sunrise":1664801880,"sunset":1664843980,"moonrise":1664832480,"moonset":0,"moon_phase":0.28,"temp":{"day":69.53,"min":58.57,"max":71.42,"night":58.77,"eve":60.71,"morn":58.57},"feels_like":{"day":67.78,"night":57.4,"eve":59.34,"morn":56.43},"pressure":1016,"humidity":34,"dew_point":39.67,"wind_speed":8.14,"wind_deg":179,"wind_gust":9.26,"weather":[{"id":500,"main":"Rain","description":"light
@@ -153,7 +153,7 @@ http_interactions:
         rain","icon":"10d"}],"clouds":1,"pop":0.64,"rain":0.17,"uvi":6},{"dt":1664992800,"sunrise":1664974796,"sunset":1665016587,"moonrise":1665010380,"moonset":1664956320,"moon_phase":0.35,"temp":{"day":69.04,"min":56.73,"max":72.86,"night":65.52,"eve":70.84,"morn":56.73},"feels_like":{"day":67.06,"night":63.09,"eve":68.67,"morn":54.55},"pressure":1015,"humidity":30,"dew_point":36.03,"wind_speed":7.34,"wind_deg":55,"wind_gust":8.12,"weather":[{"id":803,"main":"Clouds","description":"broken
         clouds","icon":"04d"}],"clouds":57,"pop":0,"uvi":6},{"dt":1665079200,"sunrise":1665061255,"sunset":1665102892,"moonrise":1665098700,"moonset":1665047280,"moon_phase":0.39,"temp":{"day":69.03,"min":57.74,"max":73.56,"night":66.72,"eve":71.73,"morn":57.74},"feels_like":{"day":66.81,"night":64.36,"eve":69.58,"morn":55.04},"pressure":1018,"humidity":25,"dew_point":31.68,"wind_speed":6.89,"wind_deg":63,"wind_gust":8.16,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"clouds":1,"pop":0.09,"uvi":6}]}'
-  recorded_at: Thu, 29 Sep 2022 13:52:20 GMT
+  recorded_at: Thu, 29 Sep 2022 14:33:34 GMT
 - request:
     method: get
     uri: https://openlibrary.org/search.json?limit=5&q=Denver
@@ -169,15 +169,15 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 500
-      message: Internal Server Error
+      code: 200
+      message: OK
     headers:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Thu, 29 Sep 2022 13:52:20 GMT
+      - Thu, 29 Sep 2022 14:33:34 GMT
       Content-Type:
-      - text/html; charset=utf-8
+      - application/json
       Transfer-Encoding:
       - chunked
       Connection:
@@ -189,10 +189,475 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.015 TT 0 0.084"'
+      - '"SR 1 0.012 TT 0 0.013"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        Cgo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIGxhbmc9IiI+CjxoZWFkPgogICAgPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiIC8+CiAgICA8bWV0YSBuYW1lPSJ0aXRsZSIgY29udGVudD0iIiAvPgogICAgPG1ldGEgbmFtZT0ia2V5d29yZHMiIGNvbnRlbnQ9ImZyZWUgYm9va3MsIGJvb2tzIHRvIHJlYWQsIGZyZWUgZWJvb2tzLCBhdWRpbyBib29rcywgcmVhZCBib29rcyBmb3IgZnJlZSwgcmVhZCBib29rcyBvbmxpbmUsIG9ubGluZSBsaWJyYXJ5Ij4KICAgIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4KICAgIDxtZXRhIG5hbWU9ImF1dGhvciIgY29udGVudD0iT3BlbkxpYnJhcnkub3JnIiAvPgogICAgPG1ldGEgbmFtZT0iY3JlYXRvciIgY29udGVudD0iT3BlbkxpYnJhcnkub3JnIiAvPgogICAgPG1ldGEgbmFtZT0iY29weXJpZ2h0IiBjb250ZW50PSJPcmlnaW5hbCBjb250ZW50IGNvcHlyaWdodDsgMjAwNy0yMDE1IiAvPgogICAgPG1ldGEgbmFtZT0iZGlzdHJpYnV0aW9uIiBjb250ZW50PSJHbG9iYWwiIC8+CiAgICA8bWV0YSBuYW1lPSJ0aGVtZS1jb2xvciIgY29udGVudD0iI2UyZGNjNSI+CgoKICAgIDxsaW5rIHJlbD0iY2Fub25pY2FsIiBocmVmPSJodHRwczovL29wZW5saWJyYXJ5Lm9yZy9zZWFyY2guanNvbj9saW1pdD01JmFtcDtxPURlbnZlciIgLz4KICAgIDxsaW5rIHJlbD0icHJlY29ubmVjdCIgaHJlZj0iaHR0cHM6Ly9hbmFseXRpY3MuYXJjaGl2ZS5vcmciPgoKICAgIDxsaW5rIHJlbD0ic2VhcmNoIiB0eXBlPSJhcHBsaWNhdGlvbi9vcGVuc2VhcmNoZGVzY3JpcHRpb24reG1sIiB0aXRsZT0iT3BlbiBMaWJyYXJ5IiBocmVmPSIvc3RhdGljL29wZW5zZWFyY2gueG1sIj4KICAgIDxsaW5rIHJlbD0ibWFuaWZlc3QiIGhyZWY9Ii9zdGF0aWMvbWFuaWZlc3QuanNvbiI+CgogICAgPGxpbmsgaHJlZj0iL3N0YXRpYy9pbWFnZXMvb3BlbmxpYnJhcnktMTI4eDEyOC5wbmciIHJlbD0iYXBwbGUtdG91Y2gtaWNvbiIgLz4KICAgIDxsaW5rIGhyZWY9Ii9zdGF0aWMvaW1hZ2VzL29wZW5saWJyYXJ5LTE1MngxNTIucG5nIiByZWw9ImFwcGxlLXRvdWNoLWljb24iIHNpemVzPSIxNTJ4MTUyIiAvPgogICAgPGxpbmsgaHJlZj0iL3N0YXRpYy9pbWFnZXMvb3BlbmxpYnJhcnktMTY3eDE2Ny5wbmciIHJlbD0iYXBwbGUtdG91Y2gtaWNvbiIgc2l6ZXM9IjE2N3gxNjciIC8+CiAgICA8bGluayBocmVmPSIvc3RhdGljL2ltYWdlcy9vcGVubGlicmFyeS0xODB4MTgwLnBuZyIgcmVsPSJhcHBsZS10b3VjaC1pY29uIiBzaXplcz0iMTgweDE4MCIgLz4KICAgIDxsaW5rIGhyZWY9Ii9zdGF0aWMvaW1hZ2VzL29wZW5saWJyYXJ5LTE5MngxOTIucG5nIiByZWw9Imljb24iIHNpemVzPSIxOTJ4MTkyIiAvPgogICAgPGxpbmsgaHJlZj0iL3N0YXRpYy9pbWFnZXMvb3BlbmxpYnJhcnktMTI4eDEyOC5wbmciIHJlbD0iaWNvbiIgc2l6ZXM9IjEyOHgxMjgiIC8+CiAgICA8bGluayBocmVmPSIvc3RhdGljL2J1aWxkL3BhZ2UtdXNlci5jc3M/dj1lZjlhZmU4ZmFjZmY1NDQ2NDA2YThlNDllMWViODlhMyIgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgLz4KCiAgICA8bm9zY3JpcHQ+CiAgICAgIDxzdHlsZT4KICAgICAgICAvKiBEb24ndCBoaWRlIGNvbnRlbnQgd2l0aCBjbGFtcCBpZiBubyBqcyB0byBzaG93IG1vcmUvbGVzcyAqLwogICAgICAgIC5jbGFtcCB7CiAgICAgICAgICAtd2Via2l0LWxpbmUtY2xhbXA6IHVuc2V0ICFpbXBvcnRhbnQ7CiAgICAgICAgfQoKICAgICAgICAvKiBAd2lkdGgtYnJlYWtwb2ludC10YWJsZXQgbWVkaWEgcXVlcnk6ICovCiAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjhweCkgewogICAgICAgICAgLyogU3RpY2t5IG5hdmJhciB0byB0b3Agb2Ygc2NyZWVuIGlmIGNvbXBhY3QgdGl0bGUgY2Fubm90IGJlIHN0aWNraWVkICovCiAgICAgICAgICAud29yay1tZW51IHsKICAgICAgICAgICAgdG9wOiAwICFpbXBvcnRhbnQ7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICA8L3N0eWxlPgogICAgPC9ub3NjcmlwdD4KIDxzY3JpcHQ+CgovKiBAbGljc3RhcnQgIFRoZSBmb2xsb3dpbmcgaXMgdGhlIGVudGlyZSBsaWNlbnNlIG5vdGljZSBmb3IgdGhlCiAqIEphdmFTY3JpcHQgY29kZSBpbiB0aGlzIHBhZ2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHA6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKgogKiBAbGljZW5kICBUaGUgYWJvdmUgaXMgdGhlIGVudGlyZSBsaWNlbnNlIG5vdGljZQogKiBmb3IgdGhlIEphdmFTY3JpcHQgY29kZSBpbiB0aGlzIHBhZ2UuCiAqLwoKICA8L3NjcmlwdD4KCiAgICA8IS0tIEphdmFTY3JpcHQgZXhlY3V0aW9uIHF1ZXVlIHRoYXQgd2lsbCBiZSBlbXB0aWVkIGF0IHRoZSBib3R0b20gb2YgdGhlIHBhZ2UgLS0+CiAgICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+d2luZG93LnEgPSBbXTs8L3NjcmlwdD4KICAgIDxtZXRhIG5hbWU9Imdvb2dsZS1zaXRlLXZlcmlmaWNhdGlvbiIgY29udGVudD0iS3JxY1pENGw1QkxOVnlqelNpMnNqWkJpd2dta0oxVzduNnc3VGhEN0E3NCIgLz4KICAgIDxtZXRhIG5hbWU9Imdvb2dsZS1zaXRlLXZlcmlmaWNhdGlvbiIgY29udGVudD0idnRYR204cTNVZ1AtZjZxWFR2UUJvODV1aDNubUlZSW90VnFxZEpEcHl6NCIgLz4KICAgIDxtZXRhIG5hbWU9ImFsZXhhVmVyaWZ5SUQiIGNvbnRlbnQ9IndKS2xUUmoxWjFPSTRHLUowdzlSLWNXaEpqdyIgLz4gPCEtLSBOZWNlc3NhcnkgZm9yIEFsZXhhIC0tPgogICAgPCEtLSBEcmluaSwgR29vZ2xlIFNlYXJjaCBDb25zb2xlIC0tPgogICAgPG1ldGEgbmFtZT0iZ29vZ2xlLXNpdGUtdmVyaWZpY2F0aW9uIiBjb250ZW50PSJYWU9KOVVqME1CcjZ3azdrajFJa3R0WHJxWS1iYlJzdEZNQURUZkV0MzU0IiAvPgoKCgoKCgoKICAgIDxtZXRhIG5hbWU9ImRlc2NyaXB0aW9uIiBjb250ZW50PSJPcGVuIExpYnJhcnkgaXMgYW4gb3BlbiwgZWRpdGFibGUgbGlicmFyeSBjYXRhbG9nLCBidWlsZGluZyB0b3dhcmRzIGEgd2ViIHBhZ2UgZm9yIGV2ZXJ5IGJvb2sgZXZlciBwdWJsaXNoZWQuIFJlYWQsIGJvcnJvdywgYW5kIGRpc2NvdmVyIG1vcmUgdGhhbiAzTSBib29rcyBmb3IgZnJlZS4iIC8+CiAgICAKICAgIDx0aXRsZT5JbnRlcm5hbCBFcnJvciB8IE9wZW4gTGlicmFyeTwvdGl0bGU+Cgo8L2hlYWQ+CgoKCgo8Ym9keSBjbGFzcz0iIiA+CiAgPHNjcmlwdD4KICAgICAgLy8gUHJvdmlkZSBhIHNpZ25hbCB0aGF0IEpTIHdpbGwgbG9hZAogICAgICBkb2N1bWVudC5ib2R5LmNsYXNzTmFtZSArPSAnIGNsaWVudC1qcyc7CiAgPC9zY3JpcHQ+CiAgPHNwYW4gaWQ9InRvcCI+PC9zcGFuPgogIDxkaXYgaWQ9Im9mZmxpbmUtaW5mbyI+SXQgbG9va3MgbGlrZSB5b3UmIzM5O3JlIG9mZmxpbmUuPC9kaXY+CiAgCiAgCiAgCiAgICA8ZGl2IGlkPSJkb25hdG8iPjwvZGl2PgogICAgPHNjcmlwdCBzcmM9Ii9jZG4vYXJjaGl2ZS5vcmcvZG9uYXRlLmpzIiBkYXRhLXBsYXRmb3JtPSJvbCI+PC9zY3JpcHQ+CiAgICAKCjxkaXYgaWQ9InRvcE5vdGljZSI+CiAgPGRpdiBjbGFzcz0icGFnZS1iYW5uZXIgcGFnZS1iYW5uZXItYmxhY2sgcGFnZS1iYW5uZXItY2VudGVyIj4KICAgIDxkaXYgY2xhc3M9ImlhQmFyIj4KICAgICAgICA8YSBjbGFzcz0iaWFMb2dvIiBocmVmPSJodHRwczovL2FyY2hpdmUub3JnIj48aW1nIGFsdD0iSW50ZXJuZXQgQXJjaGl2ZSBsb2dvIiBzcmM9Ii9zdGF0aWMvaW1hZ2VzL2lhLWxvZ28uc3ZnIiB3aWR0aD0iMTYwIj48L2E+CiAgICAgICAgPGEgY2xhc3M9Imdob3N0LWJ0biIgaHJlZj0iaHR0cHM6Ly9hcmNoaXZlLm9yZy9kb25hdGUvP3BsYXRmb3JtPW9sJm9yaWdpbj1vbHd3dy1Ub3BOYXZEb25hdGVCdXR0b24iIGRhdGEtb2wtbGluay10cmFjaz0iSUFCYXJ8RG9uYXRlQnV0dG9uIj5Eb25hdGUgPHNwYW4gY2xhc3M9ImhlYXJ0IiBhcmlhLWhpZGRlbj0idHJ1ZSI+4pmlPC9zcGFuPjwvYT4KICAgICAgPGRpdiBjbGFzcz0ibGFuZ3VhZ2UtY29tcG9uZW50IGhlYWRlci1kcm9wZG93biIgaWQ9ImZvb3Rlci1sb2NhbGUtbWVudSI+CiAgICAgICAgPGRldGFpbHM+CiAgICAgICAgICA8c3VtbWFyeT4KICAgICAgICAgICAgPGltZyBjbGFzcz0idHJhbnNsYXRlLWljb24iIHNyYz0iL3N0YXRpYy9pbWFnZXMvbGFuZ3VhZ2UtaWNvbi5zdmciIHRpdGxlPSJDaGFuZ2UgV2Vic2l0ZSBMYW5ndWFnZSIgYWx0PSJDaGFuZ2UgV2Vic2l0ZSBMYW5ndWFnZSIvPgogICAgICAgICAgPC9zdW1tYXJ5PgogICAgICAgICAgPGRpdiBjbGFzcz0ibGFuZ3VhZ2UtZHJvcGRvd24tY29tcG9uZW50Ij4KICAgICAgICAgICAgCjx1bCBjbGFzcz0ibG9jYWxlLW9wdGlvbnMgZHJvcGRvd24tbWVudSI+CiAgPGxpPjxhIGhyZWY9IiMiIGxhbmc9ImNzIiBkYXRhLWxhbmctaWQ9ImNzIiB0aXRsZT0iQ3plY2giPsSMZcWhdGluYSAoY3MpPC9hPjwvbGk+CiAgPGxpPjxhIGhyZWY9IiMiIGxhbmc9ImRlIiBkYXRhLWxhbmctaWQ9ImRlIiB0aXRsZT0iR2VybWFuIj5EZXV0c2NoIChkZSk8L2E+PC9saT4KICA8bGk+PGEgaHJlZj0iIyIgbGFuZz0iZW4iIGRhdGEtbGFuZy1pZD0iZW4iIHRpdGxlPSJFbmdsaXNoIj5FbmdsaXNoIChlbik8L2E+PC9saT4KICA8bGk+PGEgaHJlZj0iIyIgbGFuZz0iZXMiIGRhdGEtbGFuZy1pZD0iZXMiIHRpdGxlPSJTcGFuaXNoIj5Fc3Bhw7FvbCAoZXMpPC9hPjwvbGk+CiAgPGxpPjxhIGhyZWY9IiMiIGxhbmc9ImZyIiBkYXRhLWxhbmctaWQ9ImZyIiB0aXRsZT0iRnJlbmNoIj5GcmFuw6dhaXMgKGZyKTwvYT48L2xpPgogIDxsaT48YSBocmVmPSIjIiBsYW5nPSJociIgZGF0YS1sYW5nLWlkPSJociIgdGl0bGU9IkNyb2F0aWFuIj5IcnZhdHNraSAoaHIpPC9hPjwvbGk+CiAgPGxpPjxhIGhyZWY9IiMiIGxhbmc9InB0IiBkYXRhLWxhbmctaWQ9InB0IiB0aXRsZT0iUG9ydHVndWVzZSI+UG9ydHVndcOqcyAocHQpPC9hPjwvbGk+CiAgPGxpPjxhIGhyZWY9IiMiIGxhbmc9InRlIiBkYXRhLWxhbmctaWQ9InRlIiB0aXRsZT0iVGVsdWd1Ij7gsKTgsYbgsLLgsYHgsJfgsYEgKHRlKTwvYT48L2xpPgogIDxsaT48YSBocmVmPSIjIiBsYW5nPSJ1ayIgZGF0YS1sYW5nLWlkPSJ1ayIgdGl0bGU9IlVrcmFpbmlhbiI+0KPQutGA0LDRl9C90YHRjNC60LAgKHVrKTwvYT48L2xpPgogIDxsaT48YSBocmVmPSIjIiBsYW5nPSJ6aCIgZGF0YS1sYW5nLWlkPSJ6aCIgdGl0bGU9IkNoaW5lc2UiPuS4reaWhyAoemgpPC9hPjwvbGk+CjwvdWw+CgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kZXRhaWxzPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L2Rpdj4KCiAgCjxoZWFkZXIgaWQ9ImhlYWRlci1iYXIiIGNsYXNzPSJoZWFkZXItYmFyIj4KCgoKICA8ZGl2IGNsYXNzPSJsb2dvLWNvbXBvbmVudCI+CiAgICA8YSBocmVmPSIvIiB0aXRsZT0iVGhlIEludGVybmV0IEFyY2hpdmUmIzM5O3MgT3BlbiBMaWJyYXJ5OiBPbmUgcGFnZSBmb3IgZXZlcnkgYm9vayI+CiAgICAgIDxkaXYgY2xhc3M9ImxvZ28tdHh0Ij4KICAgICAgICA8aW1nIGNsYXNzPSJsb2dvLWljb24iIHNyYz0iL3N0YXRpYy9pbWFnZXMvb3BlbmxpYnJhcnktbG9nby10aWdodGVyLnN2ZyIKICAgICAgICAgIHdpZHRoPSIxODkiIGhlaWdodD0iNDciCiAgICAgICAgICBhbHQ9Ik9wZW4gTGlicmFyeSBsb2dvIi8+CiAgICAgIDwvZGl2PgogICAgPC9hPgogIDwvZGl2PgoKCgogIDx1bCBjbGFzcz0ibmF2aWdhdGlvbi1jb21wb25lbnQiPgogICAgPGxpPgoKCgoKCgoKCgoKCjxkaXYgY2xhc3M9Im15Ym9va3MtY29tcG9uZW50IGhlYWRlci1kcm9wZG93biI+CiAgPGEgaHJlZj0iL2FjY291bnQvbG9hbnMiIGRhdGEtb2wtbGluay10cmFjaz1NYWluTmF2fE15Qm9va3M+TXkgQm9va3M8L2E+CjwvZGl2Pgo8L2xpPgogICAgPGxpPgoKCgoKCgoKCgoKCjxkaXYgY2xhc3M9ImJyb3dzZS1jb21wb25lbnQgaGVhZGVyLWRyb3Bkb3duIj4KICA8ZGV0YWlscz4KICAgIDxzdW1tYXJ5ID4KICAgICAgQnJvd3NlCiAgICAgIDxzcGFuIGNsYXNzPSJzaGlmdCI+TWVudTwvc3Bhbj4KICAgICAgCiAgICAgIDxpbWcgY2xhc3M9ImRvd24tYXJyb3ciIGFyaWEtaGlkZGVuPSJ0cnVlIiBzcmM9Ii9zdGF0aWMvaW1hZ2VzL2Rvd24tYXJyb3cucG5nIiBhbHQ9IiIgcm9sZT0icHJlc2VudGF0aW9uIiB3aWR0aD0iNyIgaGVpZ2h0PSI0Ij4KICAgIDwvc3VtbWFyeT4KICAgIDxkaXYKICAgIGNsYXNzPSJicm93c2UtZHJvcGRvd24tY29tcG9uZW50IG5hdmlnYXRpb24tZHJvcGRvd24tY29tcG9uZW50IgogICAgPgogICAgICA8dWwgY2xhc3M9ImRyb3Bkb3duLW1lbnUgYnJvd3NlLWRyb3Bkb3duLW1lbnUiPgogICAgICAgIDxsaT4KICAgICAgICA8YSBocmVmPSIvc3ViamVjdHMiIGRhdGEtb2wtbGluay10cmFjaz1NYWluTmF2fFN1YmplY3RzPgogICAgICAgICAgU3ViamVjdHMKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGk+CiAgICAgICAgPGEgaHJlZj0iL3RyZW5kaW5nIiBkYXRhLW9sLWxpbmstdHJhY2s9TWFpbk5hdnxUcmVuZGluZz4KICAgICAgICAgIFRyZW5kaW5nCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9leHBsb3JlIiBkYXRhLW9sLWxpbmstdHJhY2s9TWFpbk5hdnxFeHBsb3JlPgogICAgICAgICAgTGlicmFyeSBFeHBsb3JlcgogICAgICAgIDwvYT4KICAgICAgICA8L2xpPgogICAgICAgIDxsaT4KICAgICAgICA8YSBocmVmPSIvbGlzdHMiIGRhdGEtb2wtbGluay10cmFjaz1NYWluTmF2fExpc3RzPgogICAgICAgICAgTGlzdHMKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGk+CiAgICAgICAgPGEgaHJlZj0iL2NvbGxlY3Rpb25zIiBkYXRhLW9sLWxpbmstdHJhY2s9TWFpbk5hdnxDb2xsZWN0aW9ucz4KICAgICAgICAgIENvbGxlY3Rpb25zCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9rLTEyIiBkYXRhLW9sLWxpbmstdHJhY2s9TWFpbk5hdnxLMTJMaWJyYXJ5PgogICAgICAgICAgSy0xMiBTdHVkZW50IExpYnJhcnkKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGk+CiAgICAgICAgPGEgaHJlZj0iL3JhbmRvbSIgZGF0YS1vbC1saW5rLXRyYWNrPU1haW5OYXZ8UmFuZG9tQm9vaz4KICAgICAgICAgIFJhbmRvbSBCb29rCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9hZHZhbmNlZHNlYXJjaCIgZGF0YS1vbC1saW5rLXRyYWNrPU1haW5OYXZ8QWR2YW5jZWRTZWFyY2g+CiAgICAgICAgICBBZHZhbmNlZCBTZWFyY2gKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgPC91bD4KICAgIDwvZGl2PgogIDwvZGV0YWlscz4KPC9kaXY+CjwvbGk+CiAgPC91bD4KCiAgPGRpdiBjbGFzcz0ic2VhcmNoLWNvbXBvbmVudCI+CiAgICA8ZGl2IGNsYXNzPSJzZWFyY2gtYmFyLWNvbXBvbmVudCI+CiAgICAgIDxkaXYgY2xhc3M9InNlYXJjaC1iYXIiPgogICAgICAgIDxkaXYgY2xhc3M9InNlYXJjaC1mYWNldCI+CiAgICAgICAgICA8bGFiZWwgY2xhc3M9InNlYXJjaC1mYWNldC1zZWxlY3RvciI+CiAgICAgICAgICAgIDxzcGFuIGFyaWEtaGlkZGVuPSJ0cnVlIiBjbGFzcz0ic2VhcmNoLWZhY2V0LXZhbHVlIj48L3NwYW4+CiAgICAgICAgICAgIDxzZWxlY3QgYXJpYS1sYWJlbD0iU2VhcmNoIGJ5Ij4KICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSdhbGwnPkFsbDwvb3B0aW9uPgogICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9J3RpdGxlJz5UaXRsZTwvb3B0aW9uPgogICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9J2F1dGhvcic+QXV0aG9yPC9vcHRpb24+CiAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0ndGV4dCc+VGV4dDwvb3B0aW9uPgogICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9J3N1YmplY3QnPlN1YmplY3Q8L29wdGlvbj4KICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSdsaXN0cyc+TGlzdHM8L29wdGlvbj4KICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSdhZHZhbmNlZCc+QWR2YW5jZWQ8L29wdGlvbj4KICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgIDwvZGl2PgogICAgICAgIDxmb3JtIGNsYXNzPSJzZWFyY2gtYmFyLWlucHV0IiBhY3Rpb249Ii9zZWFyY2giIG1ldGhvZD0iZ2V0Ij4KICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJxIiBwbGFjZWhvbGRlcj0iU2VhcmNoIiBhcmlhLWxhYmVsPSJTZWFyY2giIGF1dG9jb21wbGV0ZT0ib2ZmIj4KICAgICAgICAgIDxpbnB1dCBuYW1lPSJtb2RlIiB0eXBlPSJjaGVja2JveCIgYXJpYS1oaWRkZW49InRydWUiIGFyaWEtbGFiZWw9IlNlYXJjaCBjaGVja2JveCIgY2hlY2tlZD0iY2hlY2tlZCIgdmFsdWU9IiIgaWQ9ImZ0b2tlbnN0b3AiIGNsYXNzPSJoaWRkZW4gaW5zdGFudHNlYXJjaC1tb2RlIj4KICAgICAgICAgIDxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSIiIGNsYXNzPSJzZWFyY2gtYmFyLXN1Ym1pdCIgYXJpYS1sYWJlbD0iU2VhcmNoIHN1Ym1pdCI+CiAgICAgICAgPC9mb3JtPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic2VhcmNoLWRyb3Bkb3duIj4KICAgICAgICA8dWwgY2xhc3M9InNlYXJjaC1yZXN1bHRzIj4KICAgICAgICA8L3VsPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2PgoKICA8dWwgY2xhc3M9ImF1dGgtY29tcG9uZW50Ij4KICAgIDxsaSBjbGFzcz0iaGlkZS1tZSI+CiAgICAgIDxhIGNsYXNzPSJidG4iCiAgICAgICAgIGhyZWY9Ii9hY2NvdW50L2xvZ2luIj5Mb2cgSW48L2E+PC9saT4KICAgIDxsaT48YSBjbGFzcz0iYnRuIHByaW1hcnkiIGhyZWY9Ii9hY2NvdW50L2NyZWF0ZSI+U2lnbiBVcDwvYT48L2xpPgogIDwvdWw+CiAgCiAgCgoKCgoKCgoKCgoKPGRpdiBjbGFzcz0iaGFtYnVyZ2VyLWNvbXBvbmVudCBoZWFkZXItZHJvcGRvd24iPgogIDxkZXRhaWxzPgogICAgPHN1bW1hcnkgZGF0YS1vbC1saW5rLXRyYWNrPSJIZWFkZXJCYXJ8SGFtYnVyZ2VyIj4KICAgICAgPGltZyBjbGFzcz0iaGFtYnVyZ2VyX19pY29uIiBzcmM9Ii9zdGF0aWMvaW1hZ2VzL2hhbWJ1cmdlci1pY29uLnN2ZyIgYWx0PSJhZGRpdGlvbmFsIG9wdGlvbnMgbWVudSIvPgogICAgICA8aW1nIGNsYXNzPSJkb3duLWFycm93IiBhcmlhLWhpZGRlbj0idHJ1ZSIgc3JjPSIvc3RhdGljL2ltYWdlcy9kb3duLWFycm93LnBuZyIgYWx0PSIiIHJvbGU9InByZXNlbnRhdGlvbiIgd2lkdGg9IjciIGhlaWdodD0iNCI+CiAgICA8L3N1bW1hcnk+CiAgICA8ZGl2IGNsYXNzPSJtYXNrLW1lbnUiPjwvZGl2PgogICAgPGRpdgogICAgY2xhc3M9ImFwcC1kcmF3ZXIiCiAgICA+CiAgICAgIDx1bCBjbGFzcz0iZHJvcGRvd24tbWVudSBoYW1idXJnZXItZHJvcGRvd24tbWVudSI+CiAgICAgICAgPGxpIGNsYXNzPSJzdWJzZWN0aW9uIj4KICAgICAgICAgIE15IE9wZW4gTGlicmFyeQogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJsb2dpbi1saW5rcyI+CiAgICAgICAgICA8YSBjbGFzcz0ibG9naW4tbGlua3NfX3NlY29uZGFyeSIgaHJlZj0iL2FjY291bnQvbG9naW4iPkxvZyBJbjwvYT4KICAgICAgICAgIDxhIGNsYXNzPSJsb2dpbi1saW5rc19fcHJpbWFyeSIgaHJlZj0iL2FjY291bnQvY3JlYXRlIj5TaWduIFVwPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJzdWJzZWN0aW9uIj4KICAgICAgICAgIEJyb3dzZQogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9zdWJqZWN0cyIgZGF0YS1vbC1saW5rLXRyYWNrPUhhbWJ1cmdlcnxTdWJqZWN0cz4KICAgICAgICAgIFN1YmplY3RzCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii90cmVuZGluZyIgZGF0YS1vbC1saW5rLXRyYWNrPUhhbWJ1cmdlcnxUcmVuZGluZz4KICAgICAgICAgIFRyZW5kaW5nCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9leHBsb3JlIiBkYXRhLW9sLWxpbmstdHJhY2s9SGFtYnVyZ2VyfEV4cGxvcmU+CiAgICAgICAgICBMaWJyYXJ5IEV4cGxvcmVyCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9saXN0cyIgZGF0YS1vbC1saW5rLXRyYWNrPUhhbWJ1cmdlcnxMaXN0cz4KICAgICAgICAgIExpc3RzCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9jb2xsZWN0aW9ucyIgZGF0YS1vbC1saW5rLXRyYWNrPUhhbWJ1cmdlcnxDb2xsZWN0aW9ucz4KICAgICAgICAgIENvbGxlY3Rpb25zCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9rLTEyIiBkYXRhLW9sLWxpbmstdHJhY2s9SGFtYnVyZ2VyfEsxMkxpYnJhcnk+CiAgICAgICAgICBLLTEyIFN0dWRlbnQgTGlicmFyeQogICAgICAgIDwvYT4KICAgICAgICA8L2xpPgogICAgICAgIDxsaT4KICAgICAgICA8YSBocmVmPSIvcmFuZG9tIiBkYXRhLW9sLWxpbmstdHJhY2s9SGFtYnVyZ2VyfFJhbmRvbUJvb2s+CiAgICAgICAgICBSYW5kb20gQm9vawogICAgICAgIDwvYT4KICAgICAgICA8L2xpPgogICAgICAgIDxsaT4KICAgICAgICA8YSBocmVmPSIvYWR2YW5jZWRzZWFyY2giIGRhdGEtb2wtbGluay10cmFjaz1IYW1idXJnZXJ8QWR2YW5jZWRTZWFyY2g+CiAgICAgICAgICBBZHZhbmNlZCBTZWFyY2gKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGkgY2xhc3M9InN1YnNlY3Rpb24iPgogICAgICAgICAgTW9yZQogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9ib29rcy9hZGQiIGRhdGEtb2wtbGluay10cmFjaz1IYW1idXJnZXJ8QWRkQm9vaz4KICAgICAgICAgIEFkZCBhIEJvb2sKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGk+CiAgICAgICAgPGEgaHJlZj0iL3JlY2VudGNoYW5nZXMiIGRhdGEtb2wtbGluay10cmFjaz1IYW1idXJnZXJ8UmVjZW50RWRpdHM+CiAgICAgICAgICBSZWNlbnQgQ29tbXVuaXR5IEVkaXRzCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9kZXZlbG9wZXJzIiBkYXRhLW9sLWxpbmstdHJhY2s9SGFtYnVyZ2VyfERldmVsb3BlcnM+CiAgICAgICAgICBEZXZlbG9wZXIgQ2VudGVyCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9oZWxwIiBkYXRhLW9sLWxpbmstdHJhY2s9SGFtYnVyZ2VyfEhlbHA+CiAgICAgICAgICBIZWxwICZhbXA7IFN1cHBvcnQKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgPC91bD4KICAgIDwvZGl2PgogIDwvZGV0YWlscz4KPC9kaXY+CgoKPC9oZWFkZXI+CjxoZWFkZXIgY2xhc3M9ImhlYWRlci1iYXIgbW9iaWxlIj4KICA8dWwgY2xhc3M9Im5hdmlnYXRpb24tY29tcG9uZW50IG1vYmlsZSI+CiAgICA8bGk+CgoKCgoKCgoKCgoKPGRpdiBjbGFzcz0ibXlib29rcy1jb21wb25lbnQgaGVhZGVyLWRyb3Bkb3duIj4KICA8YSBocmVmPSIvYWNjb3VudC9sb2FucyIgZGF0YS1vbC1saW5rLXRyYWNrPU1haW5OYXZ8TXlCb29rcz5NeSBCb29rczwvYT4KPC9kaXY+CjwvbGk+CiAgICA8bGk+CgoKCgoKCgoKCgoKPGRpdiBjbGFzcz0iYnJvd3NlLWNvbXBvbmVudCBoZWFkZXItZHJvcGRvd24iPgogIDxkZXRhaWxzPgogICAgPHN1bW1hcnkgPgogICAgICBCcm93c2UKICAgICAgPHNwYW4gY2xhc3M9InNoaWZ0Ij5NZW51PC9zcGFuPgogICAgICAKICAgICAgPGltZyBjbGFzcz0iZG93bi1hcnJvdyIgYXJpYS1oaWRkZW49InRydWUiIHNyYz0iL3N0YXRpYy9pbWFnZXMvZG93bi1hcnJvdy5wbmciIGFsdD0iIiByb2xlPSJwcmVzZW50YXRpb24iIHdpZHRoPSI3IiBoZWlnaHQ9IjQiPgogICAgPC9zdW1tYXJ5PgogICAgPGRpdgogICAgY2xhc3M9ImJyb3dzZS1kcm9wZG93bi1jb21wb25lbnQgbmF2aWdhdGlvbi1kcm9wZG93bi1jb21wb25lbnQiCiAgICA+CiAgICAgIDx1bCBjbGFzcz0iZHJvcGRvd24tbWVudSBicm93c2UtZHJvcGRvd24tbWVudSI+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9zdWJqZWN0cyIgZGF0YS1vbC1saW5rLXRyYWNrPU1haW5OYXZ8U3ViamVjdHM+CiAgICAgICAgICBTdWJqZWN0cwogICAgICAgIDwvYT4KICAgICAgICA8L2xpPgogICAgICAgIDxsaT4KICAgICAgICA8YSBocmVmPSIvdHJlbmRpbmciIGRhdGEtb2wtbGluay10cmFjaz1NYWluTmF2fFRyZW5kaW5nPgogICAgICAgICAgVHJlbmRpbmcKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGk+CiAgICAgICAgPGEgaHJlZj0iL2V4cGxvcmUiIGRhdGEtb2wtbGluay10cmFjaz1NYWluTmF2fEV4cGxvcmU+CiAgICAgICAgICBMaWJyYXJ5IEV4cGxvcmVyCiAgICAgICAgPC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpPgogICAgICAgIDxhIGhyZWY9Ii9saXN0cyIgZGF0YS1vbC1saW5rLXRyYWNrPU1haW5OYXZ8TGlzdHM+CiAgICAgICAgICBMaXN0cwogICAgICAgIDwvYT4KICAgICAgICA8L2xpPgogICAgICAgIDxsaT4KICAgICAgICA8YSBocmVmPSIvY29sbGVjdGlvbnMiIGRhdGEtb2wtbGluay10cmFjaz1NYWluTmF2fENvbGxlY3Rpb25zPgogICAgICAgICAgQ29sbGVjdGlvbnMKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGk+CiAgICAgICAgPGEgaHJlZj0iL2stMTIiIGRhdGEtb2wtbGluay10cmFjaz1NYWluTmF2fEsxMkxpYnJhcnk+CiAgICAgICAgICBLLTEyIFN0dWRlbnQgTGlicmFyeQogICAgICAgIDwvYT4KICAgICAgICA8L2xpPgogICAgICAgIDxsaT4KICAgICAgICA8YSBocmVmPSIvcmFuZG9tIiBkYXRhLW9sLWxpbmstdHJhY2s9TWFpbk5hdnxSYW5kb21Cb29rPgogICAgICAgICAgUmFuZG9tIEJvb2sKICAgICAgICA8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGk+CiAgICAgICAgPGEgaHJlZj0iL2FkdmFuY2Vkc2VhcmNoIiBkYXRhLW9sLWxpbmstdHJhY2s9TWFpbk5hdnxBZHZhbmNlZFNlYXJjaD4KICAgICAgICAgIEFkdmFuY2VkIFNlYXJjaAogICAgICAgIDwvYT4KICAgICAgICA8L2xpPgogICAgICA8L3VsPgogICAgPC9kaXY+CiAgPC9kZXRhaWxzPgo8L2Rpdj4KPC9saT4KICA8L3VsPgo8L2hlYWRlcj4KCiAgCiAgPGRpdiBpZD0idGVzdC1ib2R5LW1vYmlsZSI+CiAgICAKICAgIDxkaXYgY2xhc3M9ImZsYXNoLW1lc3NhZ2VzIj4KICAgIDwvZGl2PgogICAgCiAgICAKICAgIAoKPGRpdiBpZD0iY29udGVudEhlYWQiPgogICAgPGgxPkhtbS4uLjwvaDE+CjwvZGl2PgoKPGRpdiBpZD0iY29udGVudEJvZHkiPgogICAgPHA+U29ycnkuIFRoZXJlIHNlZW1zIHRvIGJlIGEgcHJvYmxlbSB3aXRoIHdoYXQgeW91IHdlcmUganVzdCBsb29raW5nIGF0LjwvcD4KICAgIDxwPldlJ3ZlIG5vdGVkIHRoZSBlcnJvciAyMDIyLTA5LTI5LzEzNTIyMDY0NjU0NyBhbmQgd2lsbCBsb29rIGludG8gaXQgYXMgc29vbiBhcyBwb3NzaWJsZS4gSGVhZCBmb3IgPGEgaHJlZj0iLyI+aG9tZTwvYT4/PC9wPgoKPC9kaXY+CgogIDwvZGl2PgoKCgoKPCEtLUZvciBhbmFseXRpY3MtLT4KPGRpdiBjbGFzcz0iY2xlYXJmaXgiPjwvZGl2PgoKCjxmb290ZXI+CiAgPGRpdiBpZD0iZm9vdGVyLWNvbnRlbnQiID4KICAgIDxkaXYgaWQ9ImZvb3Rlci1saW5rcyI+CiAgICAgIDxkaXY+CiAgICAgICAgPGgyPk9wZW4gTGlicmFyeTwvaDI+CiAgICAgICAgPHVsPgogICAgICAgICAgPGxpPjxhIGhyZWY9Ii9hYm91dC92aXNpb24iPlZpc2lvbjwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9Ii92b2x1bnRlZXIiPlZvbHVudGVlcjwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9Ii9wYXJ0bmVyLXdpdGgtdXMiPlBhcnRuZXIgV2l0aCBVczwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvam9icy5waHAiIHRpdGxlPSJKb2JzIj5DYXJlZXJzPC9hPjwvbGk+CiAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ibG9nLm9wZW5saWJyYXJ5Lm9yZy8iPkJsb2c8L2E+PC9saT4KICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2FyY2hpdmUub3JnL2Fib3V0L3Rlcm1zLnBocCI+VGVybXMgb2YgU2VydmljZTwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYXJjaGl2ZS5vcmcvZG9uYXRlLz9wbGF0Zm9ybT1vbCZvcmlnaW49b2x3d3ctVG9wTmF2RG9uYXRlQnV0dG9uIj5Eb25hdGU8L2E+PC9saT4KICAgICAgICA8L3VsPgogICAgICA8L2Rpdj4KICAgICAgPGRpdj4KICAgICAgICA8aDI+RGlzY292ZXI8L2gyPgogICAgICAgIDx1bD4KICAgICAgICAgIDxsaT48YSBocmVmPSIvIiB0aXRsZT0iR28gaG9tZSI+SG9tZTwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9Ii9zZWFyY2giIHRpdGxlPSJFeHBsb3JlIEJvb2tzIj5Cb29rczwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9Ii9zZWFyY2gvYXV0aG9ycyIgdGl0bGU9IkV4cGxvcmUgYXV0aG9ycyI+QXV0aG9yczwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9Ii9zdWJqZWN0cyIgdGl0bGU9IkV4cGxvcmUgc3ViamVjdHMiPlN1YmplY3RzPC9hPjwvbGk+CiAgICAgICAgICA8bGk+PGEgaHJlZj0iL2NvbGxlY3Rpb25zIiB0aXRsZT0iRXhwbG9yZSBjb2xsZWN0aW9ucyI+Q29sbGVjdGlvbnM8L2E+PC9saT4KICAgICAgICAgIDxsaT48YSBocmVmPSIvYWR2YW5jZWRzZWFyY2giPkFkdmFuY2VkIFNlYXJjaDwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9IiN0b3AiIHRpdGxlPSJOYXZpZ2F0ZSB0byB0b3Agb2YgdGhpcyBwYWdlIj5SZXR1cm4gdG8gVG9wPC9hPjwvbGk+CiAgICAgICAgPC91bD4KICAgICAgPC9kaXY+CiAgICAgIDxkaXY+CiAgICAgICAgPGgyPkRldmVsb3A8L2gyPgogICAgICAgIDx1bD4KICAgICAgICAgIDxsaT48YSBocmVmPSIvZGV2ZWxvcGVycyIgdGl0bGU9IkV4cGxvcmUgT3BlbiBMaWJyYXJ5IERldmVsb3BlciBDZW50ZXIiPkRldmVsb3BlciBDZW50ZXI8L2E+PC9saT4KICAgICAgICAgIDxsaT48YSBocmVmPSIvZGV2ZWxvcGVycy9hcGkiIHRpdGxlPSJFeHBsb3JlIE9wZW4gTGlicmFyeSBBUElzIj5BUEkgRG9jdW1lbnRhdGlvbjwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIGhyZWY9Ii9kZXZlbG9wZXJzL2R1bXBzIiB0aXRsZT0iQnVsayBPcGVuIExpYnJhcnkgZGF0YSI+QnVsayBEYXRhIER1bXBzPC9hPjwvbGk+CiAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL2ludGVybmV0YXJjaGl2ZS9vcGVubGlicmFyeS93aWtpL1dyaXRpbmctQm90cyIgdGl0bGU9IldyaXRlIGEgYm90Ij5Xcml0aW5nIEJvdHM8L2E+PC9saT4KICAgICAgICAgIDxsaT48YSBocmVmPSIvYm9va3MvYWRkIiB0aXRsZT0iQWRkIGEgbmV3IGJvb2sgdG8gT3BlbiBMaWJyYXJ5Ij5BZGQgYSBCb29rPC9hPjwvbGk+CiAgICAgICAgPC91bD4KICAgICAgPC9kaXY+CiAgICAgIDxkaXY+CiAgICAgICAgPGgyPkhlbHA8L2gyPgogICAgICAgIDx1bD4KICAgICAgICAgIDxsaT48YSBocmVmPSIvaGVscCI+SGVscCBDZW50ZXI8L2E+PC9saT4KICAgICAgICAgIDxsaT48YSBocmVmPSIvY29udGFjdD9wYXRoPSUyRnNlYXJjaC5qc29uJTNGbGltaXQlM0Q1JTI2cSUzRERlbnZlciIgdGl0bGU9IlByb2JsZW1zIj5SZXBvcnQgQSBQcm9ibGVtPC9hPjwvbGk+CiAgICAgICAgICA8bGk+PGEgaHJlZj0iL2hlbHAvZmFxL2VkaXRpbmciIHRpdGxlPSJTdWdnZXN0IEVkaXRzIj5TdWdnZXN0aW5nIEVkaXRzPC9hPjwvbGk+CiAgICAgICAgPC91bD4KICAgICAgICA8YXNpZGUgaWQ9ImZvb3Rlci1pY29ucyI+CiAgICAgICAgICA8YSBjbGFzcz0iZm9vdGVyLWljb25zX190d2l0dGVyIiBocmVmPSJodHRwczovL3R3aXR0ZXIuY29tL09wZW5MaWJyYXJ5Ij50d2l0dGVyPC9hPgogICAgICAgICAgPGEgY2xhc3M9ImZvb3Rlci1pY29uc19fZ2l0aHViIiBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vaW50ZXJuZXRhcmNoaXZlL29wZW5saWJyYXJ5Ij5naXRodWI8L2E+CiAgICAgICAgPC9hc2lkZT4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgaWQ9ImZvb3Rlci1sb2NhbGUtbWVudSI+CiAgICAgICAgPGgyPkNoYW5nZSBXZWJzaXRlIExhbmd1YWdlPC9oMj4KICAgICAgICAKPHVsIGNsYXNzPSJsb2NhbGUtb3B0aW9ucyAiPgogIDxsaT48YSBocmVmPSIjIiBsYW5nPSJjcyIgZGF0YS1sYW5nLWlkPSJjcyIgdGl0bGU9IkN6ZWNoIj7EjGXFoXRpbmEgKGNzKTwvYT48L2xpPgogIDxsaT48YSBocmVmPSIjIiBsYW5nPSJkZSIgZGF0YS1sYW5nLWlkPSJkZSIgdGl0bGU9Ikdlcm1hbiI+RGV1dHNjaCAoZGUpPC9hPjwvbGk+CiAgPGxpPjxhIGhyZWY9IiMiIGxhbmc9ImVuIiBkYXRhLWxhbmctaWQ9ImVuIiB0aXRsZT0iRW5nbGlzaCI+RW5nbGlzaCAoZW4pPC9hPjwvbGk+CiAgPGxpPjxhIGhyZWY9IiMiIGxhbmc9ImVzIiBkYXRhLWxhbmctaWQ9ImVzIiB0aXRsZT0iU3BhbmlzaCI+RXNwYcOxb2wgKGVzKTwvYT48L2xpPgogIDxsaT48YSBocmVmPSIjIiBsYW5nPSJmciIgZGF0YS1sYW5nLWlkPSJmciIgdGl0bGU9IkZyZW5jaCI+RnJhbsOnYWlzIChmcik8L2E+PC9saT4KICA8bGk+PGEgaHJlZj0iIyIgbGFuZz0iaHIiIGRhdGEtbGFuZy1pZD0iaHIiIHRpdGxlPSJDcm9hdGlhbiI+SHJ2YXRza2kgKGhyKTwvYT48L2xpPgogIDxsaT48YSBocmVmPSIjIiBsYW5nPSJwdCIgZGF0YS1sYW5nLWlkPSJwdCIgdGl0bGU9IlBvcnR1Z3Vlc2UiPlBvcnR1Z3XDqnMgKHB0KTwvYT48L2xpPgogIDxsaT48YSBocmVmPSIjIiBsYW5nPSJ0ZSIgZGF0YS1sYW5nLWlkPSJ0ZSIgdGl0bGU9IlRlbHVndSI+4LCk4LGG4LCy4LGB4LCX4LGBICh0ZSk8L2E+PC9saT4KICA8bGk+PGEgaHJlZj0iIyIgbGFuZz0idWsiIGRhdGEtbGFuZy1pZD0idWsiIHRpdGxlPSJVa3JhaW5pYW4iPtCj0LrRgNCw0ZfQvdGB0YzQutCwICh1ayk8L2E+PC9saT4KICA8bGk+PGEgaHJlZj0iIyIgbGFuZz0iemgiIGRhdGEtbGFuZy1pZD0iemgiIHRpdGxlPSJDaGluZXNlIj7kuK3mlocgKHpoKTwvYT48L2xpPgo8L3VsPgoKICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxocj4KICAgIDxkaXYgaWQ9ImZvb3Rlci1kZXRhaWxzIj4KICAgICAgPGltZyBpZD0iYXJjaGl2ZS1sb2dvIiBzcmM9Ii9zdGF0aWMvaW1hZ2VzL3BhbnRoZW9uLnBuZyIgYWx0PSJPcGVuIExpYnJhcnkgbG9nbyI+CiAgICAgIDxkaXYgaWQ9ImxlZ2FsLWRldGFpbHMiID4KICAgICAgICA8c3Bhbj5PcGVuIExpYnJhcnkgaXMgYW4gaW5pdGlhdGl2ZSBvZiB0aGUgPGEgaHJlZj0iLy9hcmNoaXZlLm9yZy8iPkludGVybmV0IEFyY2hpdmU8L2E+LCBhIDUwMShjKSgzKSBub24tcHJvZml0LCBidWlsZGluZyBhIGRpZ2l0YWwgbGlicmFyeSBvZiBJbnRlcm5ldCBzaXRlcyBhbmQgb3RoZXIgY3VsdHVyYWwgYXJ0aWZhY3RzIGluICBkaWdpdGFsIGZvcm0uIE90aGVyIDxhIGhyZWY9Ii8vYXJjaGl2ZS5vcmcvcHJvamVjdHMvIj5wcm9qZWN0czwvYT4gaW5jbHVkZSB0aGUgPGEgaHJlZj0iLy9hcmNoaXZlLm9yZy93ZWIvIj5XYXliYWNrIE1hY2hpbmU8L2E+LCA8YSBocmVmPSIvL2FyY2hpdmUub3JnLyI+YXJjaGl2ZS5vcmc8L2E+IGFuZCA8YSBocmVmPSIvL2FyY2hpdmUtaXQub3JnIj5hcmNoaXZlLWl0Lm9yZzwvYT48L3NwYW4+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CjwvZm9vdGVyPgoKCjwhLS1XaWxsIGJlIG1vdmVkIGluc2lkZSBpbmRleC5qcy0tPgo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+CiAgaWYgKCJzZXJ2aWNlV29ya2VyIiBpbiBuYXZpZ2F0b3IpIHsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdsb2FkJywgKCkgPT4gewogICAgICBuYXZpZ2F0b3Iuc2VydmljZVdvcmtlci5yZWdpc3RlcigiL3N3LmpzIikudGhlbihyZWdpc3RyYXRpb24gPT4gewoKICAgICAgfSkuY2F0Y2goZXJyb3IgPT4gewogICAgICAgIGNvbnNvbGUubG9nKCJTZXJ2aWNlV29ya2VyIHJlZ2lzdHJhdGlvbiBmYWlsZWQiKTsKICAgICAgfSk7CiAgICB9KTsKICB9CgogIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdiZWZvcmVpbnN0YWxscHJvbXB0JywgKGUpID0+IHsKICAgIC8vIFByZXZlbnQgdGhlIG1pbmktaW5mb2JhciBmcm9tIGFwcGVhcmluZyBvbiBtb2JpbGUKICAgIGUucHJldmVudERlZmF1bHQoKTsKICB9KTsKPC9zY3JpcHQ+Cgo8IS0tIE11c3QgYmUgbG9hZGVkIGFmdGVyIGpxdWVyeSAtLT4KPHNjcmlwdCBzcmM9Ii9jZG4vYXJjaGl2ZS5vcmcvYW5hbHl0aWNzLmpzIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPjwvc2NyaXB0Pgo8c2NyaXB0IHNyYz0iL3N0YXRpYy9idWlsZC9hbGwuanM/dj05OGRmZDUyMDZlMDcyYTU4YWM1ZWVlMDQwZDJkNjI2YSIgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij48L3NjcmlwdD4KPCEtLSBQYXNzZXMgdG90YWxfdGltZSBmb3IgYW5hbHl0aWNzIHRvIG9sLmFuYWx5dGljcy5qcyAtLT4KPGRpdiBjbGFzcz0iYW5hbHl0aWNzLXN0YXRzLXRpbWUtY2FsY3VsYXRvciIgZGF0YS10aW1lPSI4MC44MDMzOTQzMTc2MjY5NSI+PC9kaXY+Cgo8IS0tIGNsZWFyIHRoZSB3aW5kb3cucSBhbmQgc2V0dXAgdGhlIGpRdWVyeSBwbHVnaW5zIC0tPgo8c2NyaXB0PgokKCBmdW5jdGlvbiAoKSB7CiAgICB2YXIgaTsKICAgIGZvciAoIGkgPSAwOyBpIDwgd2luZG93LnEubGVuZ3RoOyBpKysgKSB7CiAgICAgICAgJCggd2luZG93LnFbaV0gKTsKICAgIH0KICAgIHdpbmRvdy5xID0gW107Cn0gKTsKCmlmICh0eXBlb2YgYXJjaGl2ZV9hbmFseXRpY3MgIT09ICd1bmRlZmluZWQnKSB7CiAgYXJjaGl2ZV9hbmFseXRpY3Muc2V0X3VwX2V2ZW50X3RyYWNraW5nKCk7Cn0KPC9zY3JpcHQ+CjwvYm9keT4KPC9odG1sPgoK
-  recorded_at: Thu, 29 Sep 2022 13:52:20 GMT
+      encoding: UTF-8
+      string: |-
+        {
+            "numFound": 8849,
+            "start": 0,
+            "numFoundExact": true,
+            "docs": [
+                {
+                    "key": "/works/OL7919260W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL7534653M",
+                        "/books/OL9773191M",
+                        "/works/OL7919260W",
+                        "/authors/OL2644662A"
+                    ],
+                    "title": "Denver                              **",
+                    "title_suggest": "Denver                              **",
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL7534653M",
+                        "OL9773191M"
+                    ],
+                    "publish_date": [
+                        "July 1982",
+                        "1982"
+                    ],
+                    "publish_year": [
+                        1982
+                    ],
+                    "first_publish_year": 1982,
+                    "number_of_pages_median": 480,
+                    "oclc": [
+                        "8545466"
+                    ],
+                    "isbn": [
+                        "0445047119",
+                        "9780449047118",
+                        "0449047113",
+                        "9780445047112"
+                    ],
+                    "last_modified_i": 1303831840,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Popular Library",
+                        "Fawcett Books"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2644662A"
+                    ],
+                    "author_name": [
+                        "John Dunning"
+                    ],
+                    "id_goodreads": [
+                        "572193",
+                        "1709509"
+                    ],
+                    "id_librarything": [
+                        "762567"
+                    ],
+                    "publisher_facet": [
+                        "Fawcett Books",
+                        "Popular Library"
+                    ],
+                    "_version_": 1735676409105350658,
+                    "author_facet": [
+                        "OL2644662A John Dunning"
+                    ]
+                },
+                {
+                    "key": "/works/OL26878533W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL36444779M",
+                        "/works/OL26878533W",
+                        "/authors/OL10084594A"
+                    ],
+                    "title": "Denver Gift",
+                    "title_suggest": "Denver Gift",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL36444779M"
+                    ],
+                    "publish_date": [
+                        "2021"
+                    ],
+                    "publish_year": [
+                        2021
+                    ],
+                    "first_publish_year": 2021,
+                    "isbn": [
+                        "9798593883957"
+                    ],
+                    "last_modified_i": 1640943095,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Independently Published"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL10084594A"
+                    ],
+                    "author_name": [
+                        "Vivienne Schneider"
+                    ],
+                    "publisher_facet": [
+                        "Independently Published"
+                    ],
+                    "_version_": 1735668880312893445,
+                    "author_facet": [
+                        "OL10084594A Vivienne Schneider"
+                    ]
+                },
+                {
+                    "key": "/works/OL17732022W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL26332277M",
+                        "/books/OL36808891M",
+                        "/books/OL36812433M",
+                        "/books/OL36813586M",
+                        "/books/OL36810142M",
+                        "/books/OL36780164M",
+                        "/books/OL36813587M",
+                        "/books/OL36815923M",
+                        "/works/OL17732022W",
+                        "/subjects/fiction",
+                        "/subjects/fiction_romance_general",
+                        "/subjects/place:denver_(colo.)",
+                        "/subjects/place:colorado",
+                        "/subjects/place:denver",
+                        "/authors/OL7321148A"
+                    ],
+                    "title": "The Denver cereal",
+                    "title_suggest": "The Denver cereal",
+                    "edition_count": 8,
+                    "edition_key": [
+                        "OL26332277M",
+                        "OL36808891M",
+                        "OL36812433M",
+                        "OL36813586M",
+                        "OL36810142M",
+                        "OL36780164M",
+                        "OL36813587M",
+                        "OL36815923M"
+                    ],
+                    "publish_date": [
+                        "2008",
+                        "2009"
+                    ],
+                    "publish_year": [
+                        2008,
+                        2009
+                    ],
+                    "first_publish_year": 2008,
+                    "number_of_pages_median": 186,
+                    "publish_place": [
+                        "Denver, CO"
+                    ],
+                    "oclc": [
+                        "456457795"
+                    ],
+                    "lcc": [
+                        "PS-3603.00000000.H74565D46"
+                    ],
+                    "ddc": [
+                        "813.6"
+                    ],
+                    "isbn": [
+                        "1938057481",
+                        "9780982274606",
+                        "1938057465",
+                        "1938057244",
+                        "9781938057588",
+                        "0982274629",
+                        "0982274602",
+                        "9781938057304",
+                        "9781938057298",
+                        "9781938057243",
+                        "9780982274620",
+                        "1938057589",
+                        "1938057309",
+                        "9781938057465",
+                        "1938057295",
+                        "9781938057489"
+                    ],
+                    "last_modified_i": 1643352987,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "denvercerealplac00clau"
+                    ],
+                    "ia_collection_s": "china;denverpubliclibrary-ol;inlibrary;internetarchivebooks;printdisabled",
+                    "lending_edition_s": "OL26332277M",
+                    "lending_identifier_s": "denvercerealplac00clau",
+                    "printdisabled_s": "OL26332277M",
+                    "cover_edition_key": "OL26332277M",
+                    "cover_i": 8010520,
+                    "publisher": [
+                        "Cook Street Publishing"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL7321148A"
+                    ],
+                    "author_name": [
+                        "Claudia Hall Christian"
+                    ],
+                    "place": [
+                        "Denver (Colo.)",
+                        "Colorado",
+                        "Denver"
+                    ],
+                    "subject": [
+                        "Fiction",
+                        "Fiction, romance, general",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "ia_box_id": [
+                        "IA1111520"
+                    ],
+                    "publisher_facet": [
+                        "Cook Street Publishing"
+                    ],
+                    "place_key": [
+                        "colorado",
+                        "denver",
+                        "denver_(colo.)"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Fiction",
+                        "Fiction, romance, general",
+                        "Protected DAISY"
+                    ],
+                    "_version_": 1735658397483663360,
+                    "place_facet": [
+                        "Colorado",
+                        "Denver",
+                        "Denver (Colo.)"
+                    ],
+                    "lcc_sort": "PS-3603.00000000.H74565D46",
+                    "author_facet": [
+                        "OL7321148A Claudia Hall Christian"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "fiction",
+                        "fiction_romance_general",
+                        "protected_daisy"
+                    ],
+                    "ddc_sort": "813.6"
+                },
+                {
+                    "key": "/works/OL16042916W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL3795822M",
+                        "/works/OL16042916W",
+                        "/subjects/industries",
+                        "/subjects/retail_stores",
+                        "/subjects/directories",
+                        "/subjects/guidebooks",
+                        "/subjects/business_travel",
+                        "/authors/OL3429944A",
+                        "/authors/OL6969695A",
+                        "/authors/OL2653225A",
+                        "/authors/OL6969696A",
+                        "/authors/OL6969697A"
+                    ],
+                    "title": "Denver now",
+                    "title_suggest": "Denver now",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL3795822M"
+                    ],
+                    "publish_date": [
+                        "1982"
+                    ],
+                    "publish_year": [
+                        1982
+                    ],
+                    "first_publish_year": 1982,
+                    "lccn": [
+                        "81085938"
+                    ],
+                    "publish_place": [
+                        "Denver, CO"
+                    ],
+                    "oclc": [
+                        "8781120"
+                    ],
+                    "contributor": [
+                        "Now Publications.",
+                        "Freed, Ken.",
+                        "Most, Bruce W.",
+                        "Gaddy, T. W.",
+                        "Perez, Steve.",
+                        "Chirichigno, Joe."
+                    ],
+                    "lcc": [
+                        "HC-0108.00000000.D37 D46 1982"
+                    ],
+                    "ddc": [
+                        "338.0978883"
+                    ],
+                    "isbn": [
+                        "9780943426006",
+                        "0943426006"
+                    ],
+                    "last_modified_i": 1603300845,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "denvernowdenvers00most"
+                    ],
+                    "ia_collection_s": "china;denverpubliclibrary-ol;inlibrary;internetarchivebooks;printdisabled",
+                    "lending_edition_s": "OL3795822M",
+                    "lending_identifier_s": "denvernowdenvers00most",
+                    "printdisabled_s": "OL3795822M",
+                    "cover_edition_key": "OL3795822M",
+                    "cover_i": 6909122,
+                    "publisher": [
+                        "Now Publications"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL3429944A",
+                        "OL6969695A",
+                        "OL2653225A",
+                        "OL6969696A",
+                        "OL6969697A"
+                    ],
+                    "author_name": [
+                        "Bruce W. Most",
+                        "Ken Freed",
+                        "Steve Perez",
+                        "Joe Chirichigno",
+                        "T. W. Gaddy"
+                    ],
+                    "subject": [
+                        "Industries",
+                        "Retail Stores",
+                        "Directories",
+                        "Guidebooks",
+                        "Business travel",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "id_librarything": [
+                        "6359263"
+                    ],
+                    "ia_loaded_id": [
+                        "denvernowdenvers00most"
+                    ],
+                    "ia_box_id": [
+                        "IA125515"
+                    ],
+                    "publisher_facet": [
+                        "Now Publications"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Business travel",
+                        "Directories",
+                        "Guidebooks",
+                        "Industries",
+                        "Protected DAISY",
+                        "Retail Stores"
+                    ],
+                    "_version_": 1735656285128359939,
+                    "lcc_sort": "HC-0108.00000000.D37 D46 1982",
+                    "author_facet": [
+                        "OL2653225A Steve Perez",
+                        "OL3429944A Bruce W. Most",
+                        "OL6969695A Ken Freed",
+                        "OL6969696A Joe Chirichigno",
+                        "OL6969697A T. W. Gaddy"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "business_travel",
+                        "directories",
+                        "guidebooks",
+                        "industries",
+                        "protected_daisy",
+                        "retail_stores"
+                    ],
+                    "ddc_sort": "338.0978883"
+                },
+                {
+                    "key": "/works/OL8024585W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL11307122M",
+                        "/books/OL11307123M",
+                        "/works/OL8024585W",
+                        "/authors/OL2672852A"
+                    ],
+                    "title": "John Denver",
+                    "title_suggest": "John Denver",
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL11307122M",
+                        "OL11307123M"
+                    ],
+                    "publish_date": [
+                        "December 31, 1998"
+                    ],
+                    "publish_year": [
+                        1998
+                    ],
+                    "first_publish_year": 1998,
+                    "isbn": [
+                        "9780895240040",
+                        "089524005X",
+                        "0895240041",
+                        "9780895240057"
+                    ],
+                    "last_modified_i": 1260838959,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Music Sales Ltd"
+                    ],
+                    "author_key": [
+                        "OL2672852A"
+                    ],
+                    "author_name": [
+                        "Lane"
+                    ],
+                    "publisher_facet": [
+                        "Music Sales Ltd"
+                    ],
+                    "_version_": 1735676600195743745,
+                    "author_facet": [
+                        "OL2672852A Lane"
+                    ]
+                }
+            ],
+            "num_found": 8849,
+            "q": "Denver",
+            "offset": null
+        }
+  recorded_at: Thu, 29 Sep 2022 14:33:34 GMT
 recorded_with: VCR 6.1.0
