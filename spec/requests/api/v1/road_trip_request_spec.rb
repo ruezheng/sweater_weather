@@ -36,7 +36,7 @@ RSpec.describe 'Road Trip Endpoint' do
 
     context 'sad path' do
       it 'returns a 401 status code error unauthorized if road trip is not successfully created' do
-                user = User.create!(email: 'user@example.com', password: 'test123', password_confirmation: 'test123', api_key: "b9fda3e3eb9842dc9654c75716f99ead")
+        user = User.create!(email: 'user@example.com', password: 'test123', password_confirmation: 'test123', api_key: "b9fda3e3eb9842dc9654c75716f99ead")
 
         params = {
           "origin": "Denver,CO",
