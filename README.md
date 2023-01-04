@@ -7,7 +7,6 @@
 
 ## Table of Contents
 - [App](#app)
-- [Background](#background)
 - [Schema](#schema)
 - [Learning Goals](#learning-goals)
 - [Endpoints](#endpoints)
@@ -17,13 +16,7 @@
 
 ## App
 
-Sweater Weather app can be found on [heroku](https://sweater-weather-new.herokuapp.com/api/v1/forecast?location=denver,co).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Background
-
-Sweater Weather is a service-oriented Application that exposes API endpoints for trip planning. This app allows users to see current weather and weather forecast to plan their trip.
+[Sweater Weather](https://sweater-weather-new.herokuapp.com/api/v1/forecast?location=denver,co) is a service-oriented Ruby on Rails API application that exposes API endpoints for trip planning. This app allows users to see current weather and weather forecast to plan their trip.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -35,11 +28,48 @@ Sweater Weather is a service-oriented Application that exposes API endpoints for
 - Determine completion criteria based on the needs of other developers
 - Research, select, and consume an API based on your needs as a developer
 
-## Schema
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-<img width="796" alt="image" src="https://user-images.githubusercontent.com/99001315/192816685-0d0bb697-1d30-4ab2-8ddd-20a156a446d9.png">
+## Installation
+
+1. Fork and/or Clone the repo using the SSH key
+  ```
+  git clone git@github.com:rue-zheng/sweather_weather.git
+  ```
+2. Install gems and dependencies
+  ```
+   bundle install
+  ```
+3. Create database and run migrations
+  ```
+rails db:create
+rails db:migrate
+```
+
+4. Set up figaro to securely use API key
+  ```
+  bundle exec figaro install
+  ```
+5. To use the API services mentioined above, add the following line in the hidden `root/config/application.yml` file generated in step 4: 
+  ```
+mapquest_api_key: YOUR_MAPQUEST_API_KEY
+openweather_api_key: YOUR_OPEN_WEATHER_API_KEY
+  ```
+6. Run run test suit 
+  ```
+  bundle exec rspec
+  ```
+7. Start the local server to service API requests:
+  ```
+  rails s
+  ```
+
+ Open web browser and add endpoints to the end of the local base url:
+    
+    http://localhost:3000
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## Endpoints
 
@@ -153,47 +183,11 @@ body:
     *  Login and click on your user name. Under the dropdown menu, select My API Keys option to view and manage your API key (Note: it may take a few hours for the API key to be activated).
     *  [Developer's Guide](https://openweathermap.org/guide)
 
+## Schema
 
-## Installation
-
-1. Fork and/or Clone the repo using the SSH key
-  ```
-  git clone git@github.com:rue-zheng/sweather_weather.git
-  ```
-2. Install gems and dependencies
-  ```
-   bundle install
-  ```
-3. Create database and run migrations
-  ```
-rails db:create
-rails db:migrate
-```
-
-4. Set up figaro to securely use API key
-  ```
-  bundle exec figaro install
-  ```
-5. To use the API services mentioined above, add the following line in the hidden `root/config/application.yml` file generated in step 4: 
-  ```
-mapquest_api_key: YOUR_MAPQUEST_API_KEY
-openweather_api_key: YOUR_OPEN_WEATHER_API_KEY
-  ```
-6. Run run test suit 
-  ```
-  bundle exec rspec
-  ```
-7. Start the local server to service API requests:
-  ```
-  rails s
-  ```
-
- Open web browser and add endpoints to the end of the local base url:
-    
-    http://localhost:3000
+<img width="796" alt="image" src="https://user-images.githubusercontent.com/99001315/192816685-0d0bb697-1d30-4ab2-8ddd-20a156a446d9.png">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Contributor
 
 ### Rue Zheng 
