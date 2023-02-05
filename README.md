@@ -16,7 +16,7 @@
 
 ## App
 
-[Sweater Weather](https://sweater-weather-new.herokuapp.com/api/v1/forecast?location=denver,co) is a service-oriented Ruby on Rails API application that exposes API endpoints for trip planning. This app allows users to see current weather and weather forecast to plan their trip.
+[Sweater Weather](https://sweater-weather-new.herokuapp.com/api/v1/forecast?location=denver,co) is a service-oriented Ruby on Rails API application that exposes API endpoints for trip planning. This app allows users to see current and forecasted weather to plan upcoming trips.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
